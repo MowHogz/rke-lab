@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: my-flask-app
+  name: my-flask-app
+  namespace: dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-flask-app
+  template:
+    metadata:
+      labels:
+        app: my-flask-app
+    spec:
+      containers:
+      - image: icreatemyimage/flask_app:2
+        name: flask-app-7d76d
+        livenessProbe: 
+          httpGet: 
+            port: 5000
+            path: /
+          initialDelaySeconds: 20 
+          periodSeconds: 10
