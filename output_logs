@@ -1,0 +1,1367 @@
+Dec 26 22:19:56 brock sshd[51157]: Accepted publickey for jack from 10.0.0.49 port 57588 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:19:56 brock sshd[51157]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:19:56 brock systemd-logind[680]: New session 40 of user jack.
+Dec 26 22:19:56 brock systemd[1]: Started Session 40 of User jack.
+Dec 26 22:19:56 brock systemd[1]: run-docker-runtime\x2drunc-moby-4b923006ac7c32dd93d6b9f306a5436cfa2fa371af1f2e269239d354abec19fa-runc.99wgKN.mount: Deactivated successfully.
+Dec 26 22:19:57 brock systemd[1]: docker-8dcdc7a5c22faaa485fb06ffa50bad2962bc78a2906195900515617708fe76f5.scope: Deactivated successfully.
+Dec 26 22:19:57 brock systemd[1]: docker-8dcdc7a5c22faaa485fb06ffa50bad2962bc78a2906195900515617708fe76f5.scope: Consumed 1min 4.869s CPU time.
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.017354542Z" level=info msg="ignoring event" container=8dcdc7a5c22faaa485fb06ffa50bad2962bc78a2906195900515617708fe76f5 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.018391994Z" level=info msg="shim disconnected" id=8dcdc7a5c22faaa485fb06ffa50bad2962bc78a2906195900515617708fe76f5
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.018432623Z" level=warning msg="cleaning up after shim disconnected" id=8dcdc7a5c22faaa485fb06ffa50bad2962bc78a2906195900515617708fe76f5 namespace=moby
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.018439275Z" level=info msg="cleaning up dead shim"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.033522314Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:19:58Z\" level=info msg=\"starting signal loop\" namespace=moby pid=51281 runtime=io.containerd.runc.v2\n"
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.034484507Z" level=warning msg="ShouldRestart failed, container will not be restarted" container=8dcdc7a5c22faaa485fb06ffa50bad2962bc78a2906195900515617708fe76f5 daemonShuttingDown=false error="restart canceled" execDuration=14m3.300482783s exitStatus="{137 2023-12-26 22:19:57.996678221 +0000 UTC}" hasBeenManuallyStopped=true restartCount=0
+Dec 26 22:19:58 brock systemd[1]: var-lib-docker-overlay2-1615b0cd66f7f2e5e6724c42505d595366f02b0bb7be8d9d6d4631fcbf2d19dd-merged.mount: Deactivated successfully.
+Dec 26 22:19:58 brock systemd[1]: docker-4368d4b07090aa06b0b98a71dcc0686cb5afa50bcfe8d14b2b7a2d99965cb594.scope: Deactivated successfully.
+Dec 26 22:19:58 brock systemd[1]: docker-4368d4b07090aa06b0b98a71dcc0686cb5afa50bcfe8d14b2b7a2d99965cb594.scope: Consumed 28.189s CPU time.
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.145817484Z" level=info msg="shim disconnected" id=4368d4b07090aa06b0b98a71dcc0686cb5afa50bcfe8d14b2b7a2d99965cb594
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.145964132Z" level=warning msg="cleaning up after shim disconnected" id=4368d4b07090aa06b0b98a71dcc0686cb5afa50bcfe8d14b2b7a2d99965cb594 namespace=moby
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.145974596Z" level=info msg="cleaning up dead shim"
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.146175019Z" level=info msg="ignoring event" container=4368d4b07090aa06b0b98a71dcc0686cb5afa50bcfe8d14b2b7a2d99965cb594 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.162762699Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:19:58Z\" level=info msg=\"starting signal loop\" namespace=moby pid=51307 runtime=io.containerd.runc.v2\n"
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.164948258Z" level=warning msg="ShouldRestart failed, container will not be restarted" container=4368d4b07090aa06b0b98a71dcc0686cb5afa50bcfe8d14b2b7a2d99965cb594 daemonShuttingDown=false error="restart canceled" execDuration=13m57.193341347s exitStatus="{137 2023-12-26 22:19:58.127084439 +0000 UTC}" hasBeenManuallyStopped=true restartCount=0
+Dec 26 22:19:58 brock systemd[1]: var-lib-docker-overlay2-c873193e69edf919d2dc158954093a28c08f70eda47f144a86ab028be8da2d20-merged.mount: Deactivated successfully.
+Dec 26 22:19:58 brock systemd[1]: docker-901d95f4c6041eb0a57d1bf521118ab13bd2d0e676b41c621d818199b2570e46.scope: Deactivated successfully.
+Dec 26 22:19:58 brock systemd[1]: docker-901d95f4c6041eb0a57d1bf521118ab13bd2d0e676b41c621d818199b2570e46.scope: Consumed 6.817s CPU time.
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.272673893Z" level=info msg="ignoring event" container=901d95f4c6041eb0a57d1bf521118ab13bd2d0e676b41c621d818199b2570e46 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.273558282Z" level=info msg="shim disconnected" id=901d95f4c6041eb0a57d1bf521118ab13bd2d0e676b41c621d818199b2570e46
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.273599909Z" level=warning msg="cleaning up after shim disconnected" id=901d95f4c6041eb0a57d1bf521118ab13bd2d0e676b41c621d818199b2570e46 namespace=moby
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.273606064Z" level=info msg="cleaning up dead shim"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.288793500Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:19:58Z\" level=info msg=\"starting signal loop\" namespace=moby pid=51332 runtime=io.containerd.runc.v2\n"
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.290409980Z" level=warning msg="ShouldRestart failed, container will not be restarted" container=901d95f4c6041eb0a57d1bf521118ab13bd2d0e676b41c621d818199b2570e46 daemonShuttingDown=false error="restart canceled" execDuration=13m50.881825233s exitStatus="{137 2023-12-26 22:19:58.252038404 +0000 UTC}" hasBeenManuallyStopped=true restartCount=0
+Dec 26 22:19:58 brock systemd[1]: var-lib-docker-overlay2-3e9ff3c68ef5d8adc6156499a1a1d81177fdcdc59cec62bf168a4d7c315550af-merged.mount: Deactivated successfully.
+Dec 26 22:19:58 brock systemd[1]: docker-6ce9f646efd743d30e85c34890ab4bb5629db1acff3421835e4beca2e43b4275.scope: Deactivated successfully.
+Dec 26 22:19:58 brock systemd[1]: docker-6ce9f646efd743d30e85c34890ab4bb5629db1acff3421835e4beca2e43b4275.scope: Consumed 41.543s CPU time.
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.479303056Z" level=info msg="ignoring event" container=6ce9f646efd743d30e85c34890ab4bb5629db1acff3421835e4beca2e43b4275 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.480054458Z" level=info msg="shim disconnected" id=6ce9f646efd743d30e85c34890ab4bb5629db1acff3421835e4beca2e43b4275
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.480121949Z" level=warning msg="cleaning up after shim disconnected" id=6ce9f646efd743d30e85c34890ab4bb5629db1acff3421835e4beca2e43b4275 namespace=moby
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.480132117Z" level=info msg="cleaning up dead shim"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.494472496Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:19:58Z\" level=info msg=\"starting signal loop\" namespace=moby pid=51364 runtime=io.containerd.runc.v2\n"
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.495729958Z" level=warning msg="ShouldRestart failed, container will not be restarted" container=6ce9f646efd743d30e85c34890ab4bb5629db1acff3421835e4beca2e43b4275 daemonShuttingDown=false error="restart canceled" execDuration=13m44.482121941s exitStatus="{137 2023-12-26 22:19:58.398670876 +0000 UTC}" hasBeenManuallyStopped=true restartCount=0
+Dec 26 22:19:58 brock systemd[1]: var-lib-docker-overlay2-7bc6eb695d9867f9040df03ca88efad310ef95855566bcb8841bc43b6bacfd03-merged.mount: Deactivated successfully.
+Dec 26 22:19:58 brock systemd[1]: docker-f1087e62c0ffb7b45bfbbe035c491e2820e2f9dcabb6b80cc292541e63b6c06d.scope: Deactivated successfully.
+Dec 26 22:19:58 brock systemd[1]: docker-f1087e62c0ffb7b45bfbbe035c491e2820e2f9dcabb6b80cc292541e63b6c06d.scope: Consumed 3.040s CPU time.
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.587396206Z" level=info msg="ignoring event" container=f1087e62c0ffb7b45bfbbe035c491e2820e2f9dcabb6b80cc292541e63b6c06d module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.587849688Z" level=info msg="shim disconnected" id=f1087e62c0ffb7b45bfbbe035c491e2820e2f9dcabb6b80cc292541e63b6c06d
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.587928474Z" level=warning msg="cleaning up after shim disconnected" id=f1087e62c0ffb7b45bfbbe035c491e2820e2f9dcabb6b80cc292541e63b6c06d namespace=moby
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.587939087Z" level=info msg="cleaning up dead shim"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.599505957Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:19:58Z\" level=info msg=\"starting signal loop\" namespace=moby pid=51396 runtime=io.containerd.runc.v2\n"
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.600647298Z" level=warning msg="ShouldRestart failed, container will not be restarted" container=f1087e62c0ffb7b45bfbbe035c491e2820e2f9dcabb6b80cc292541e63b6c06d daemonShuttingDown=false error="restart canceled" execDuration=13m24.108447112s exitStatus="{137 2023-12-26 22:19:58.572422084 +0000 UTC}" hasBeenManuallyStopped=true restartCount=0
+Dec 26 22:19:58 brock systemd[1]: var-lib-docker-overlay2-236d36b2bd11945a18a87c7952e37f83159b47603a4ee90addcf8008807e62ed-merged.mount: Deactivated successfully.
+Dec 26 22:19:58 brock systemd[1]: docker-8345323ddc448e92e1bc7abb9d2f5586137f19544301cc2c44cc864c5700cef9.scope: Deactivated successfully.
+Dec 26 22:19:58 brock systemd[1]: docker-8345323ddc448e92e1bc7abb9d2f5586137f19544301cc2c44cc864c5700cef9.scope: Consumed 29.751s CPU time.
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.741331474Z" level=info msg="ignoring event" container=8345323ddc448e92e1bc7abb9d2f5586137f19544301cc2c44cc864c5700cef9 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.742285531Z" level=info msg="shim disconnected" id=8345323ddc448e92e1bc7abb9d2f5586137f19544301cc2c44cc864c5700cef9
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.742840146Z" level=warning msg="cleaning up after shim disconnected" id=8345323ddc448e92e1bc7abb9d2f5586137f19544301cc2c44cc864c5700cef9 namespace=moby
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.742892356Z" level=info msg="cleaning up dead shim"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.758030002Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:19:58Z\" level=info msg=\"starting signal loop\" namespace=moby pid=51421 runtime=io.containerd.runc.v2\n"
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.759649485Z" level=warning msg="ShouldRestart failed, container will not be restarted" container=8345323ddc448e92e1bc7abb9d2f5586137f19544301cc2c44cc864c5700cef9 daemonShuttingDown=false error="restart canceled" execDuration=14m12.916925095s exitStatus="{137 2023-12-26 22:19:58.720295594 +0000 UTC}" hasBeenManuallyStopped=true restartCount=0
+Dec 26 22:19:58 brock systemd[1]: docker-ac089405b9cfdd11b06dd198508a332cf8214fe56abe51a94e97c83f5e935a81.scope: Deactivated successfully.
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.865820833Z" level=info msg="ignoring event" container=ac089405b9cfdd11b06dd198508a332cf8214fe56abe51a94e97c83f5e935a81 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.866875582Z" level=info msg="shim disconnected" id=ac089405b9cfdd11b06dd198508a332cf8214fe56abe51a94e97c83f5e935a81
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.867233407Z" level=warning msg="cleaning up after shim disconnected" id=ac089405b9cfdd11b06dd198508a332cf8214fe56abe51a94e97c83f5e935a81 namespace=moby
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.867495031Z" level=info msg="cleaning up dead shim"
+Dec 26 22:19:58 brock containerd[684]: time="2023-12-26T22:19:58.878910495Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:19:58Z\" level=info msg=\"starting signal loop\" namespace=moby pid=51447 runtime=io.containerd.runc.v2\n"
+Dec 26 22:19:58 brock dockerd[758]: time="2023-12-26T22:19:58.880163700Z" level=warning msg="ShouldRestart failed, container will not be restarted" container=ac089405b9cfdd11b06dd198508a332cf8214fe56abe51a94e97c83f5e935a81 daemonShuttingDown=false error="restart canceled" execDuration=14m12.589122987s exitStatus="{137 2023-12-26 22:19:58.844488468 +0000 UTC}" hasBeenManuallyStopped=true restartCount=0
+Dec 26 22:19:59 brock systemd[1]: var-lib-docker-overlay2-e3e84969970ad8e04451f1af613661a2c950bbf2488315ae3b6a8b4c62735700-merged.mount: Deactivated successfully.
+Dec 26 22:19:59 brock systemd[1]: var-lib-docker-overlay2-37b87372077dc84b22d3ecf41fb03a10ceddcdf802db97f5d03843ceced82e71-merged.mount: Deactivated successfully.
+Dec 26 22:19:59 brock systemd[1]: var-lib-docker-overlay2-0e9cfe623c18c3d3d21d2b728c8477b44a175bdcd69a7a0f2e388f1d2696b12e-merged.mount: Deactivated successfully.
+Dec 26 22:19:59 brock systemd-networkd[651]: veth80b31f6: Link UP
+Dec 26 22:19:59 brock networkd-dispatcher[674]: WARNING:Unknown index 107 seen, reloading interface list
+Dec 26 22:19:59 brock kernel: docker0: port 1(veth80b31f6) entered blocking state
+Dec 26 22:19:59 brock kernel: docker0: port 1(veth80b31f6) entered disabled state
+Dec 26 22:19:59 brock kernel: device veth80b31f6 entered promiscuous mode
+Dec 26 22:19:59 brock systemd-udevd[51460]: Using default interface naming scheme 'v249'.
+Dec 26 22:19:59 brock systemd-udevd[51461]: Using default interface naming scheme 'v249'.
+Dec 26 22:19:59 brock containerd[684]: time="2023-12-26T22:19:59.456347759Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:19:59 brock containerd[684]: time="2023-12-26T22:19:59.456559063Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:19:59 brock containerd[684]: time="2023-12-26T22:19:59.456565492Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:19:59 brock containerd[684]: time="2023-12-26T22:19:59.456879000Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/313611dc51619df9c64873081fa7ab7e14eae2b2789b1c3a001f4da7dc89e6ac pid=51481 runtime=io.containerd.runc.v2
+Dec 26 22:19:59 brock systemd[1]: Started libcontainer container 313611dc51619df9c64873081fa7ab7e14eae2b2789b1c3a001f4da7dc89e6ac.
+Dec 26 22:19:59 brock kernel: eth0: renamed from vethd87aa18
+Dec 26 22:19:59 brock systemd-networkd[651]: veth80b31f6: Gained carrier
+Dec 26 22:19:59 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:19:59 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth80b31f6: link becomes ready
+Dec 26 22:19:59 brock kernel: docker0: port 1(veth80b31f6) entered blocking state
+Dec 26 22:19:59 brock kernel: docker0: port 1(veth80b31f6) entered forwarding state
+Dec 26 22:19:59 brock systemd[1]: docker-313611dc51619df9c64873081fa7ab7e14eae2b2789b1c3a001f4da7dc89e6ac.scope: Deactivated successfully.
+Dec 26 22:19:59 brock dockerd[758]: time="2023-12-26T22:19:59.734493889Z" level=info msg="ignoring event" container=313611dc51619df9c64873081fa7ab7e14eae2b2789b1c3a001f4da7dc89e6ac module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:19:59 brock containerd[684]: time="2023-12-26T22:19:59.735585415Z" level=info msg="shim disconnected" id=313611dc51619df9c64873081fa7ab7e14eae2b2789b1c3a001f4da7dc89e6ac
+Dec 26 22:19:59 brock containerd[684]: time="2023-12-26T22:19:59.735696046Z" level=warning msg="cleaning up after shim disconnected" id=313611dc51619df9c64873081fa7ab7e14eae2b2789b1c3a001f4da7dc89e6ac namespace=moby
+Dec 26 22:19:59 brock containerd[684]: time="2023-12-26T22:19:59.735713848Z" level=info msg="cleaning up dead shim"
+Dec 26 22:19:59 brock containerd[684]: time="2023-12-26T22:19:59.752179727Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:19:59Z\" level=info msg=\"starting signal loop\" namespace=moby pid=51548 runtime=io.containerd.runc.v2\n"
+Dec 26 22:19:59 brock kernel: docker0: port 1(veth80b31f6) entered disabled state
+Dec 26 22:19:59 brock kernel: vethd87aa18: renamed from eth0
+Dec 26 22:19:59 brock systemd-networkd[651]: veth80b31f6: Lost carrier
+Dec 26 22:19:59 brock networkd-dispatcher[674]: WARNING:Unknown index 107 seen, reloading interface list
+Dec 26 22:19:59 brock systemd-networkd[651]: veth80b31f6: Link DOWN
+Dec 26 22:19:59 brock kernel: docker0: port 1(veth80b31f6) entered disabled state
+Dec 26 22:19:59 brock kernel: device veth80b31f6 left promiscuous mode
+Dec 26 22:19:59 brock kernel: docker0: port 1(veth80b31f6) entered disabled state
+Dec 26 22:19:59 brock networkd-dispatcher[674]: ERROR:Unknown interface index 107 seen even after reload
+Dec 26 22:19:59 brock networkd-dispatcher[674]: WARNING:Unknown index 107 seen, reloading interface list
+Dec 26 22:19:59 brock networkd-dispatcher[674]: ERROR:Unknown interface index 107 seen even after reload
+Dec 26 22:19:59 brock networkd-dispatcher[674]: WARNING:Unknown index 107 seen, reloading interface list
+Dec 26 22:19:59 brock networkd-dispatcher[674]: ERROR:Unknown interface index 107 seen even after reload
+Dec 26 22:20:00 brock systemd[1]: run-docker-runtime\x2drunc-moby-313611dc51619df9c64873081fa7ab7e14eae2b2789b1c3a001f4da7dc89e6ac-runc.HQSM8J.mount: Deactivated successfully.
+Dec 26 22:20:00 brock systemd[1]: var-lib-docker-overlay2-0e9cfe623c18c3d3d21d2b728c8477b44a175bdcd69a7a0f2e388f1d2696b12e-merged.mount: Deactivated successfully.
+Dec 26 22:20:00 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:20:00 brock systemd[1]: var-lib-docker-overlay2-2c3807a348e3af8955869510cc4757f59474dbd0898b8bfefbbfd1354eb5cd27\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:00 brock systemd[1]: var-lib-docker-overlay2-2c3807a348e3af8955869510cc4757f59474dbd0898b8bfefbbfd1354eb5cd27-merged.mount: Deactivated successfully.
+Dec 26 22:20:01 brock networkd-dispatcher[674]: WARNING:Unknown index 109 seen, reloading interface list
+Dec 26 22:20:01 brock systemd-networkd[651]: vethf8bb998: Link UP
+Dec 26 22:20:01 brock kernel: docker0: port 1(vethf8bb998) entered blocking state
+Dec 26 22:20:01 brock kernel: docker0: port 1(vethf8bb998) entered disabled state
+Dec 26 22:20:01 brock kernel: device vethf8bb998 entered promiscuous mode
+Dec 26 22:20:01 brock kernel: docker0: port 1(vethf8bb998) entered blocking state
+Dec 26 22:20:01 brock kernel: docker0: port 1(vethf8bb998) entered forwarding state
+Dec 26 22:20:01 brock kernel: docker0: port 1(vethf8bb998) entered disabled state
+Dec 26 22:20:01 brock containerd[684]: time="2023-12-26T22:20:01.246493508Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:01 brock containerd[684]: time="2023-12-26T22:20:01.246641377Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:01 brock containerd[684]: time="2023-12-26T22:20:01.246656292Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:01 brock containerd[684]: time="2023-12-26T22:20:01.248004800Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/c3280d8bb875d8a573b4bab71b3cec3755c4ee0bee8441b79326a3ed73fac504 pid=51585 runtime=io.containerd.runc.v2
+Dec 26 22:20:01 brock systemd[1]: Started libcontainer container c3280d8bb875d8a573b4bab71b3cec3755c4ee0bee8441b79326a3ed73fac504.
+Dec 26 22:20:01 brock kernel: eth0: renamed from veth59bc4c0
+Dec 26 22:20:01 brock systemd-networkd[651]: vethf8bb998: Gained carrier
+Dec 26 22:20:01 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:20:01 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethf8bb998: link becomes ready
+Dec 26 22:20:01 brock kernel: docker0: port 1(vethf8bb998) entered blocking state
+Dec 26 22:20:01 brock kernel: docker0: port 1(vethf8bb998) entered forwarding state
+Dec 26 22:20:01 brock systemd[1]: docker-c3280d8bb875d8a573b4bab71b3cec3755c4ee0bee8441b79326a3ed73fac504.scope: Deactivated successfully.
+Dec 26 22:20:01 brock dockerd[758]: time="2023-12-26T22:20:01.485279796Z" level=info msg="ignoring event" container=c3280d8bb875d8a573b4bab71b3cec3755c4ee0bee8441b79326a3ed73fac504 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:01 brock containerd[684]: time="2023-12-26T22:20:01.485229369Z" level=info msg="shim disconnected" id=c3280d8bb875d8a573b4bab71b3cec3755c4ee0bee8441b79326a3ed73fac504
+Dec 26 22:20:01 brock containerd[684]: time="2023-12-26T22:20:01.485669025Z" level=warning msg="cleaning up after shim disconnected" id=c3280d8bb875d8a573b4bab71b3cec3755c4ee0bee8441b79326a3ed73fac504 namespace=moby
+Dec 26 22:20:01 brock containerd[684]: time="2023-12-26T22:20:01.485675624Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:01 brock containerd[684]: time="2023-12-26T22:20:01.503710669Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:01Z\" level=info msg=\"starting signal loop\" namespace=moby pid=51647 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:01 brock systemd-networkd[651]: vethf8bb998: Lost carrier
+Dec 26 22:20:01 brock kernel: docker0: port 1(vethf8bb998) entered disabled state
+Dec 26 22:20:01 brock kernel: veth59bc4c0: renamed from eth0
+Dec 26 22:20:01 brock networkd-dispatcher[674]: WARNING:Unknown index 109 seen, reloading interface list
+Dec 26 22:20:01 brock systemd-networkd[651]: vethf8bb998: Link DOWN
+Dec 26 22:20:01 brock kernel: docker0: port 1(vethf8bb998) entered disabled state
+Dec 26 22:20:01 brock kernel: device vethf8bb998 left promiscuous mode
+Dec 26 22:20:01 brock kernel: docker0: port 1(vethf8bb998) entered disabled state
+Dec 26 22:20:01 brock networkd-dispatcher[674]: ERROR:Unknown interface index 109 seen even after reload
+Dec 26 22:20:01 brock networkd-dispatcher[674]: WARNING:Unknown index 109 seen, reloading interface list
+Dec 26 22:20:01 brock networkd-dispatcher[674]: ERROR:Unknown interface index 109 seen even after reload
+Dec 26 22:20:01 brock systemd[1]: run-docker-netns-ac2286c38f29.mount: Deactivated successfully.
+Dec 26 22:20:01 brock systemd[1]: var-lib-docker-overlay2-2c3807a348e3af8955869510cc4757f59474dbd0898b8bfefbbfd1354eb5cd27-merged.mount: Deactivated successfully.
+Dec 26 22:20:01 brock sshd[51157]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:20:01 brock systemd[1]: session-40.scope: Deactivated successfully.
+Dec 26 22:20:01 brock systemd-logind[680]: Session 40 logged out. Waiting for processes to exit.
+Dec 26 22:20:01 brock systemd-logind[680]: Removed session 40.
+Dec 26 22:20:02 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:20:35 brock sshd[51835]: Accepted publickey for jack from 10.0.0.49 port 57552 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:20:35 brock sshd[51835]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:20:35 brock systemd-logind[680]: New session 41 of user jack.
+Dec 26 22:20:35 brock systemd[1]: Started Session 41 of User jack.
+Dec 26 22:20:35 brock systemd[1]: var-lib-docker-overlay2-1e66bd4eacdb2bce5f206ec8bf48dbf6f673924e9e53d13a39f4ea93d70209c1\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:35 brock systemd[1]: var-lib-docker-overlay2-1e66bd4eacdb2bce5f206ec8bf48dbf6f673924e9e53d13a39f4ea93d70209c1-merged.mount: Deactivated successfully.
+Dec 26 22:20:35 brock containerd[684]: time="2023-12-26T22:20:35.830879217Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:35 brock containerd[684]: time="2023-12-26T22:20:35.831323299Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:35 brock containerd[684]: time="2023-12-26T22:20:35.831347692Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:35 brock containerd[684]: time="2023-12-26T22:20:35.832040213Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/df13bcc476115ab77f8691eafa5a94e53a1b48fb5ec2def8b9924be1a62f8d00 pid=51897 runtime=io.containerd.runc.v2
+Dec 26 22:20:35 brock systemd[1]: Started libcontainer container df13bcc476115ab77f8691eafa5a94e53a1b48fb5ec2def8b9924be1a62f8d00.
+Dec 26 22:20:35 brock systemd[1]: docker-df13bcc476115ab77f8691eafa5a94e53a1b48fb5ec2def8b9924be1a62f8d00.scope: Deactivated successfully.
+Dec 26 22:20:35 brock dockerd[758]: time="2023-12-26T22:20:35.919144060Z" level=info msg="ignoring event" container=df13bcc476115ab77f8691eafa5a94e53a1b48fb5ec2def8b9924be1a62f8d00 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:35 brock containerd[684]: time="2023-12-26T22:20:35.920465688Z" level=info msg="shim disconnected" id=df13bcc476115ab77f8691eafa5a94e53a1b48fb5ec2def8b9924be1a62f8d00
+Dec 26 22:20:35 brock containerd[684]: time="2023-12-26T22:20:35.920813149Z" level=warning msg="cleaning up after shim disconnected" id=df13bcc476115ab77f8691eafa5a94e53a1b48fb5ec2def8b9924be1a62f8d00 namespace=moby
+Dec 26 22:20:35 brock containerd[684]: time="2023-12-26T22:20:35.920887242Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:35 brock containerd[684]: time="2023-12-26T22:20:35.931673092Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:35Z\" level=info msg=\"starting signal loop\" namespace=moby pid=51941 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:36 brock systemd[1]: var-lib-docker-overlay2-1e66bd4eacdb2bce5f206ec8bf48dbf6f673924e9e53d13a39f4ea93d70209c1-merged.mount: Deactivated successfully.
+Dec 26 22:20:36 brock systemd[1]: var-lib-docker-overlay2-1e66bd4eacdb2bce5f206ec8bf48dbf6f673924e9e53d13a39f4ea93d70209c1-merged.mount: Deactivated successfully.
+Dec 26 22:20:36 brock sshd[51954]: Accepted publickey for jack from 10.0.0.49 port 57564 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:20:37 brock sshd[51954]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:20:37 brock systemd-logind[680]: New session 42 of user jack.
+Dec 26 22:20:37 brock systemd[1]: Started Session 42 of User jack.
+Dec 26 22:20:37 brock systemd[1]: var-lib-docker-overlay2-f159ce94b9352846aebc728d030f80e00e21fd3f83669adfac31cde0758681b1\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:37 brock kernel: docker0: port 1(veth2686d7c) entered blocking state
+Dec 26 22:20:37 brock kernel: docker0: port 1(veth2686d7c) entered disabled state
+Dec 26 22:20:37 brock systemd-udevd[52009]: Using default interface naming scheme 'v249'.
+Dec 26 22:20:37 brock systemd-networkd[651]: veth2686d7c: Link UP
+Dec 26 22:20:37 brock networkd-dispatcher[674]: WARNING:Unknown index 111 seen, reloading interface list
+Dec 26 22:20:37 brock kernel: device veth2686d7c entered promiscuous mode
+Dec 26 22:20:37 brock systemd-udevd[52008]: Using default interface naming scheme 'v249'.
+Dec 26 22:20:37 brock containerd[684]: time="2023-12-26T22:20:37.524510578Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:37 brock containerd[684]: time="2023-12-26T22:20:37.525676070Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:37 brock containerd[684]: time="2023-12-26T22:20:37.525938896Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:37 brock containerd[684]: time="2023-12-26T22:20:37.526710334Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/4288d2057772700a2f7858cd6554ada0d77ccfd66019fb4541249debdf974fa8 pid=52034 runtime=io.containerd.runc.v2
+Dec 26 22:20:37 brock systemd[1]: Started libcontainer container 4288d2057772700a2f7858cd6554ada0d77ccfd66019fb4541249debdf974fa8.
+Dec 26 22:20:37 brock kernel: eth0: renamed from veth83d8774
+Dec 26 22:20:37 brock systemd-networkd[651]: veth2686d7c: Gained carrier
+Dec 26 22:20:37 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:20:37 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth2686d7c: link becomes ready
+Dec 26 22:20:37 brock kernel: docker0: port 1(veth2686d7c) entered blocking state
+Dec 26 22:20:37 brock kernel: docker0: port 1(veth2686d7c) entered forwarding state
+Dec 26 22:20:37 brock systemd[1]: docker-4288d2057772700a2f7858cd6554ada0d77ccfd66019fb4541249debdf974fa8.scope: Deactivated successfully.
+Dec 26 22:20:37 brock dockerd[758]: time="2023-12-26T22:20:37.777340859Z" level=info msg="ignoring event" container=4288d2057772700a2f7858cd6554ada0d77ccfd66019fb4541249debdf974fa8 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:37 brock containerd[684]: time="2023-12-26T22:20:37.778576721Z" level=info msg="shim disconnected" id=4288d2057772700a2f7858cd6554ada0d77ccfd66019fb4541249debdf974fa8
+Dec 26 22:20:37 brock containerd[684]: time="2023-12-26T22:20:37.778759387Z" level=warning msg="cleaning up after shim disconnected" id=4288d2057772700a2f7858cd6554ada0d77ccfd66019fb4541249debdf974fa8 namespace=moby
+Dec 26 22:20:37 brock containerd[684]: time="2023-12-26T22:20:37.778769695Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:37 brock containerd[684]: time="2023-12-26T22:20:37.789424258Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:37Z\" level=info msg=\"starting signal loop\" namespace=moby pid=52155 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:37 brock systemd-networkd[651]: veth2686d7c: Lost carrier
+Dec 26 22:20:37 brock kernel: docker0: port 1(veth2686d7c) entered disabled state
+Dec 26 22:20:37 brock kernel: veth83d8774: renamed from eth0
+Dec 26 22:20:37 brock networkd-dispatcher[674]: WARNING:Unknown index 111 seen, reloading interface list
+Dec 26 22:20:37 brock systemd-networkd[651]: veth2686d7c: Link DOWN
+Dec 26 22:20:37 brock kernel: docker0: port 1(veth2686d7c) entered disabled state
+Dec 26 22:20:37 brock kernel: device veth2686d7c left promiscuous mode
+Dec 26 22:20:37 brock kernel: docker0: port 1(veth2686d7c) entered disabled state
+Dec 26 22:20:37 brock networkd-dispatcher[674]: ERROR:Unknown interface index 111 seen even after reload
+Dec 26 22:20:37 brock networkd-dispatcher[674]: WARNING:Unknown index 111 seen, reloading interface list
+Dec 26 22:20:37 brock networkd-dispatcher[674]: ERROR:Unknown interface index 111 seen even after reload
+Dec 26 22:20:37 brock networkd-dispatcher[674]: WARNING:Unknown index 111 seen, reloading interface list
+Dec 26 22:20:37 brock networkd-dispatcher[674]: ERROR:Unknown interface index 111 seen even after reload
+Dec 26 22:20:37 brock systemd[1]: run-docker-netns-4c000da6c45f.mount: Deactivated successfully.
+Dec 26 22:20:37 brock systemd[1]: var-lib-docker-overlay2-f159ce94b9352846aebc728d030f80e00e21fd3f83669adfac31cde0758681b1-merged.mount: Deactivated successfully.
+Dec 26 22:20:38 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:20:42 brock systemd[1]: var-lib-docker-overlay2-ee8771d30bd332085739146f30029e9fa216b96e6f56c687a345fb26fde8ab13\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:42 brock systemd[1]: var-lib-docker-overlay2-ee8771d30bd332085739146f30029e9fa216b96e6f56c687a345fb26fde8ab13-merged.mount: Deactivated successfully.
+Dec 26 22:20:43 brock containerd[684]: time="2023-12-26T22:20:43.199494855Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:43 brock containerd[684]: time="2023-12-26T22:20:43.199616930Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:43 brock containerd[684]: time="2023-12-26T22:20:43.199625916Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:43 brock containerd[684]: time="2023-12-26T22:20:43.200355656Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/29bb794c0abd34458469e11301a00e99fe8aaf3136b22ce7000966c2570b4874 pid=52214 runtime=io.containerd.runc.v2
+Dec 26 22:20:43 brock systemd[1]: Started libcontainer container 29bb794c0abd34458469e11301a00e99fe8aaf3136b22ce7000966c2570b4874.
+Dec 26 22:20:48 brock systemd[1]: docker-29bb794c0abd34458469e11301a00e99fe8aaf3136b22ce7000966c2570b4874.scope: Deactivated successfully.
+Dec 26 22:20:48 brock dockerd[758]: time="2023-12-26T22:20:48.317934750Z" level=info msg="ignoring event" container=29bb794c0abd34458469e11301a00e99fe8aaf3136b22ce7000966c2570b4874 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.318649018Z" level=info msg="shim disconnected" id=29bb794c0abd34458469e11301a00e99fe8aaf3136b22ce7000966c2570b4874
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.318734780Z" level=warning msg="cleaning up after shim disconnected" id=29bb794c0abd34458469e11301a00e99fe8aaf3136b22ce7000966c2570b4874 namespace=moby
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.318839644Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.332297532Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:48Z\" level=info msg=\"starting signal loop\" namespace=moby pid=52285 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:48 brock systemd[1]: var-lib-docker-overlay2-ee8771d30bd332085739146f30029e9fa216b96e6f56c687a345fb26fde8ab13-merged.mount: Deactivated successfully.
+Dec 26 22:20:48 brock systemd[1]: var-lib-docker-overlay2-6fbcc367be0123ff0dc672f8f9024c49db33d52e1ad92f41d168440af184d8ed\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:48 brock systemd[1]: var-lib-docker-overlay2-6fbcc367be0123ff0dc672f8f9024c49db33d52e1ad92f41d168440af184d8ed-merged.mount: Deactivated successfully.
+Dec 26 22:20:48 brock systemd-udevd[52297]: Using default interface naming scheme 'v249'.
+Dec 26 22:20:48 brock kernel: docker0: port 1(vethd5273c6) entered blocking state
+Dec 26 22:20:48 brock kernel: docker0: port 1(vethd5273c6) entered disabled state
+Dec 26 22:20:48 brock kernel: device vethd5273c6 entered promiscuous mode
+Dec 26 22:20:48 brock systemd-udevd[52298]: Using default interface naming scheme 'v249'.
+Dec 26 22:20:48 brock networkd-dispatcher[674]: WARNING:Unknown index 113 seen, reloading interface list
+Dec 26 22:20:48 brock systemd-networkd[651]: vethd5273c6: Link UP
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.725260574Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.725481291Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.725491103Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.725588888Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e6c3ab361d461ee02eaeaa18008421eea42fc3b4f0ecae5987c4e739db46f0a3 pid=52319 runtime=io.containerd.runc.v2
+Dec 26 22:20:48 brock systemd[1]: Started libcontainer container e6c3ab361d461ee02eaeaa18008421eea42fc3b4f0ecae5987c4e739db46f0a3.
+Dec 26 22:20:48 brock kernel: eth0: renamed from vethb36576e
+Dec 26 22:20:48 brock systemd-networkd[651]: vethd5273c6: Gained carrier
+Dec 26 22:20:48 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:20:48 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethd5273c6: link becomes ready
+Dec 26 22:20:48 brock kernel: docker0: port 1(vethd5273c6) entered blocking state
+Dec 26 22:20:48 brock kernel: docker0: port 1(vethd5273c6) entered forwarding state
+Dec 26 22:20:48 brock systemd[1]: docker-e6c3ab361d461ee02eaeaa18008421eea42fc3b4f0ecae5987c4e739db46f0a3.scope: Deactivated successfully.
+Dec 26 22:20:48 brock dockerd[758]: time="2023-12-26T22:20:48.950339611Z" level=info msg="ignoring event" container=e6c3ab361d461ee02eaeaa18008421eea42fc3b4f0ecae5987c4e739db46f0a3 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.951561165Z" level=info msg="shim disconnected" id=e6c3ab361d461ee02eaeaa18008421eea42fc3b4f0ecae5987c4e739db46f0a3
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.951660569Z" level=warning msg="cleaning up after shim disconnected" id=e6c3ab361d461ee02eaeaa18008421eea42fc3b4f0ecae5987c4e739db46f0a3 namespace=moby
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.951672532Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:48 brock containerd[684]: time="2023-12-26T22:20:48.965594197Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:48Z\" level=info msg=\"starting signal loop\" namespace=moby pid=52374 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:48 brock systemd-networkd[651]: vethd5273c6: Lost carrier
+Dec 26 22:20:48 brock kernel: docker0: port 1(vethd5273c6) entered disabled state
+Dec 26 22:20:48 brock kernel: vethb36576e: renamed from eth0
+Dec 26 22:20:49 brock systemd-udevd[52305]: Using default interface naming scheme 'v249'.
+Dec 26 22:20:49 brock networkd-dispatcher[674]: WARNING:Unknown index 113 seen, reloading interface list
+Dec 26 22:20:49 brock kernel: docker0: port 1(vethd5273c6) entered disabled state
+Dec 26 22:20:49 brock systemd-networkd[651]: vethd5273c6: Link DOWN
+Dec 26 22:20:49 brock kernel: device vethd5273c6 left promiscuous mode
+Dec 26 22:20:49 brock kernel: docker0: port 1(vethd5273c6) entered disabled state
+Dec 26 22:20:49 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:20:49 brock systemd[1]: var-lib-docker-overlay2-434c3588682e3590f01b2194ea115365cf46bcc74ff8285fa7fa0a73f6dbad86\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:50 brock systemd[1]: var-lib-docker-overlay2-434c3588682e3590f01b2194ea115365cf46bcc74ff8285fa7fa0a73f6dbad86-merged.mount: Deactivated successfully.
+Dec 26 22:20:50 brock systemd-udevd[52310]: Using default interface naming scheme 'v249'.
+Dec 26 22:20:50 brock kernel: docker0: port 1(vethb8ebcbe) entered blocking state
+Dec 26 22:20:50 brock kernel: docker0: port 1(vethb8ebcbe) entered disabled state
+Dec 26 22:20:50 brock kernel: device vethb8ebcbe entered promiscuous mode
+Dec 26 22:20:50 brock kernel: docker0: port 1(vethb8ebcbe) entered blocking state
+Dec 26 22:20:50 brock kernel: docker0: port 1(vethb8ebcbe) entered forwarding state
+Dec 26 22:20:50 brock kernel: docker0: port 1(vethb8ebcbe) entered disabled state
+Dec 26 22:20:50 brock networkd-dispatcher[674]: WARNING:Unknown index 115 seen, reloading interface list
+Dec 26 22:20:50 brock systemd-networkd[651]: vethb8ebcbe: Link UP
+Dec 26 22:20:50 brock containerd[684]: time="2023-12-26T22:20:50.413309082Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:50 brock containerd[684]: time="2023-12-26T22:20:50.413577710Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:50 brock containerd[684]: time="2023-12-26T22:20:50.413605028Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:50 brock containerd[684]: time="2023-12-26T22:20:50.414662219Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/dda37234b9abc214ac9efd49aeea3250f62050eaf8f8eeada27963f7765798fb pid=52423 runtime=io.containerd.runc.v2
+Dec 26 22:20:50 brock systemd[1]: Started libcontainer container dda37234b9abc214ac9efd49aeea3250f62050eaf8f8eeada27963f7765798fb.
+Dec 26 22:20:50 brock kernel: eth0: renamed from veth86a5157
+Dec 26 22:20:50 brock systemd-networkd[651]: vethb8ebcbe: Gained carrier
+Dec 26 22:20:50 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:20:50 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethb8ebcbe: link becomes ready
+Dec 26 22:20:50 brock kernel: docker0: port 1(vethb8ebcbe) entered blocking state
+Dec 26 22:20:50 brock kernel: docker0: port 1(vethb8ebcbe) entered forwarding state
+Dec 26 22:20:50 brock systemd[1]: docker-dda37234b9abc214ac9efd49aeea3250f62050eaf8f8eeada27963f7765798fb.scope: Deactivated successfully.
+Dec 26 22:20:50 brock dockerd[758]: time="2023-12-26T22:20:50.626137804Z" level=info msg="ignoring event" container=dda37234b9abc214ac9efd49aeea3250f62050eaf8f8eeada27963f7765798fb module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:50 brock containerd[684]: time="2023-12-26T22:20:50.626482563Z" level=info msg="shim disconnected" id=dda37234b9abc214ac9efd49aeea3250f62050eaf8f8eeada27963f7765798fb
+Dec 26 22:20:50 brock containerd[684]: time="2023-12-26T22:20:50.626533418Z" level=warning msg="cleaning up after shim disconnected" id=dda37234b9abc214ac9efd49aeea3250f62050eaf8f8eeada27963f7765798fb namespace=moby
+Dec 26 22:20:50 brock containerd[684]: time="2023-12-26T22:20:50.626542097Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:50 brock containerd[684]: time="2023-12-26T22:20:50.644761486Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:50Z\" level=info msg=\"starting signal loop\" namespace=moby pid=52474 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:50 brock systemd-networkd[651]: vethb8ebcbe: Lost carrier
+Dec 26 22:20:50 brock kernel: docker0: port 1(vethb8ebcbe) entered disabled state
+Dec 26 22:20:50 brock kernel: veth86a5157: renamed from eth0
+Dec 26 22:20:50 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:20:50 brock networkd-dispatcher[674]: WARNING:Unknown index 115 seen, reloading interface list
+Dec 26 22:20:50 brock systemd-networkd[651]: vethb8ebcbe: Link DOWN
+Dec 26 22:20:50 brock kernel: docker0: port 1(vethb8ebcbe) entered disabled state
+Dec 26 22:20:50 brock kernel: device vethb8ebcbe left promiscuous mode
+Dec 26 22:20:50 brock kernel: docker0: port 1(vethb8ebcbe) entered disabled state
+Dec 26 22:20:50 brock networkd-dispatcher[674]: ERROR:Unknown interface index 115 seen even after reload
+Dec 26 22:20:50 brock networkd-dispatcher[674]: WARNING:Unknown index 115 seen, reloading interface list
+Dec 26 22:20:50 brock networkd-dispatcher[674]: ERROR:Unknown interface index 115 seen even after reload
+Dec 26 22:20:50 brock systemd[1]: run-docker-netns-fd732042c2cd.mount: Deactivated successfully.
+Dec 26 22:20:50 brock systemd[1]: var-lib-docker-overlay2-434c3588682e3590f01b2194ea115365cf46bcc74ff8285fa7fa0a73f6dbad86-merged.mount: Deactivated successfully.
+Dec 26 22:20:51 brock networkd-dispatcher[674]: WARNING:Unknown index 117 seen, reloading interface list
+Dec 26 22:20:51 brock kernel: docker0: port 1(veth437079f) entered blocking state
+Dec 26 22:20:51 brock kernel: docker0: port 1(veth437079f) entered disabled state
+Dec 26 22:20:51 brock kernel: device veth437079f entered promiscuous mode
+Dec 26 22:20:51 brock kernel: docker0: port 1(veth437079f) entered blocking state
+Dec 26 22:20:51 brock kernel: docker0: port 1(veth437079f) entered forwarding state
+Dec 26 22:20:51 brock kernel: docker0: port 1(veth437079f) entered disabled state
+Dec 26 22:20:51 brock systemd-networkd[651]: veth437079f: Link UP
+Dec 26 22:20:51 brock containerd[684]: time="2023-12-26T22:20:51.311401276Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:51 brock containerd[684]: time="2023-12-26T22:20:51.311545506Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:51 brock containerd[684]: time="2023-12-26T22:20:51.311559122Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:51 brock containerd[684]: time="2023-12-26T22:20:51.312099834Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/aaaab3494ee14a70de655226cbc27aa35b4d9b079f84526d09b3275899e0943e pid=52515 runtime=io.containerd.runc.v2
+Dec 26 22:20:51 brock systemd[1]: Started libcontainer container aaaab3494ee14a70de655226cbc27aa35b4d9b079f84526d09b3275899e0943e.
+Dec 26 22:20:51 brock kernel: eth0: renamed from vethaf4222d
+Dec 26 22:20:51 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth437079f: link becomes ready
+Dec 26 22:20:51 brock kernel: docker0: port 1(veth437079f) entered blocking state
+Dec 26 22:20:51 brock kernel: docker0: port 1(veth437079f) entered forwarding state
+Dec 26 22:20:51 brock systemd-networkd[651]: veth437079f: Gained carrier
+Dec 26 22:20:51 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:20:51 brock systemd[1]: docker-aaaab3494ee14a70de655226cbc27aa35b4d9b079f84526d09b3275899e0943e.scope: Deactivated successfully.
+Dec 26 22:20:51 brock dockerd[758]: time="2023-12-26T22:20:51.524179749Z" level=info msg="ignoring event" container=aaaab3494ee14a70de655226cbc27aa35b4d9b079f84526d09b3275899e0943e module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:51 brock containerd[684]: time="2023-12-26T22:20:51.524751863Z" level=info msg="shim disconnected" id=aaaab3494ee14a70de655226cbc27aa35b4d9b079f84526d09b3275899e0943e
+Dec 26 22:20:51 brock containerd[684]: time="2023-12-26T22:20:51.524791807Z" level=warning msg="cleaning up after shim disconnected" id=aaaab3494ee14a70de655226cbc27aa35b4d9b079f84526d09b3275899e0943e namespace=moby
+Dec 26 22:20:51 brock containerd[684]: time="2023-12-26T22:20:51.524798253Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:51 brock containerd[684]: time="2023-12-26T22:20:51.541920290Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:51Z\" level=info msg=\"starting signal loop\" namespace=moby pid=52568 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:51 brock kernel: docker0: port 1(veth437079f) entered disabled state
+Dec 26 22:20:51 brock systemd-networkd[651]: veth437079f: Lost carrier
+Dec 26 22:20:51 brock kernel: vethaf4222d: renamed from eth0
+Dec 26 22:20:51 brock networkd-dispatcher[674]: WARNING:Unknown index 117 seen, reloading interface list
+Dec 26 22:20:51 brock systemd-networkd[651]: veth437079f: Link DOWN
+Dec 26 22:20:51 brock kernel: docker0: port 1(veth437079f) entered disabled state
+Dec 26 22:20:51 brock kernel: device veth437079f left promiscuous mode
+Dec 26 22:20:51 brock kernel: docker0: port 1(veth437079f) entered disabled state
+Dec 26 22:20:51 brock networkd-dispatcher[674]: ERROR:Unknown interface index 117 seen even after reload
+Dec 26 22:20:51 brock networkd-dispatcher[674]: WARNING:Unknown index 117 seen, reloading interface list
+Dec 26 22:20:51 brock networkd-dispatcher[674]: ERROR:Unknown interface index 117 seen even after reload
+Dec 26 22:20:51 brock systemd[1]: run-docker-netns-aeb3b67a10ba.mount: Deactivated successfully.
+Dec 26 22:20:51 brock systemd[1]: var-lib-docker-overlay2-e0f9429239ef12ce56f0fbd1a69218bff552c29dd7fff2de4b11444a3726009d-merged.mount: Deactivated successfully.
+Dec 26 22:20:51 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:20:52 brock containerd[684]: time="2023-12-26T22:20:52.002349555Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:52 brock containerd[684]: time="2023-12-26T22:20:52.002709044Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:52 brock containerd[684]: time="2023-12-26T22:20:52.002856381Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:52 brock containerd[684]: time="2023-12-26T22:20:52.003532504Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/c6822f61fa025ad40472c9708d5b16d32ff91e78ff05efb53754800eba062753 pid=52599 runtime=io.containerd.runc.v2
+Dec 26 22:20:52 brock systemd[1]: Started libcontainer container c6822f61fa025ad40472c9708d5b16d32ff91e78ff05efb53754800eba062753.
+Dec 26 22:20:52 brock systemd[1]: docker-c6822f61fa025ad40472c9708d5b16d32ff91e78ff05efb53754800eba062753.scope: Deactivated successfully.
+Dec 26 22:20:52 brock systemd[1]: var-lib-docker-overlay2-49f5f159118e599a7886b5dfe387fcaad4a86301c27d37c9c6ccf5328448ea17\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:52 brock dockerd[758]: time="2023-12-26T22:20:52.365526375Z" level=info msg="ignoring event" container=c6822f61fa025ad40472c9708d5b16d32ff91e78ff05efb53754800eba062753 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:52 brock containerd[684]: time="2023-12-26T22:20:52.367068110Z" level=info msg="shim disconnected" id=c6822f61fa025ad40472c9708d5b16d32ff91e78ff05efb53754800eba062753
+Dec 26 22:20:52 brock containerd[684]: time="2023-12-26T22:20:52.367142773Z" level=warning msg="cleaning up after shim disconnected" id=c6822f61fa025ad40472c9708d5b16d32ff91e78ff05efb53754800eba062753 namespace=moby
+Dec 26 22:20:52 brock containerd[684]: time="2023-12-26T22:20:52.367153380Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:52 brock containerd[684]: time="2023-12-26T22:20:52.381542910Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:52Z\" level=info msg=\"starting signal loop\" namespace=moby pid=52647 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:52 brock systemd[1]: var-lib-docker-overlay2-49f5f159118e599a7886b5dfe387fcaad4a86301c27d37c9c6ccf5328448ea17-merged.mount: Deactivated successfully.
+Dec 26 22:20:53 brock systemd[1]: var-lib-docker-overlay2-cdf37001acee3f8cbb88d4650fdbabbf1e3b5f5443a72de56f22f791cc534ab4\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:53 brock systemd[1]: var-lib-docker-overlay2-cdf37001acee3f8cbb88d4650fdbabbf1e3b5f5443a72de56f22f791cc534ab4-merged.mount: Deactivated successfully.
+Dec 26 22:20:53 brock networkd-dispatcher[674]: WARNING:Unknown index 119 seen, reloading interface list
+Dec 26 22:20:53 brock systemd-udevd[52504]: Using default interface naming scheme 'v249'.
+Dec 26 22:20:53 brock kernel: docker0: port 1(vethea46f43) entered blocking state
+Dec 26 22:20:53 brock kernel: docker0: port 1(vethea46f43) entered disabled state
+Dec 26 22:20:53 brock kernel: device vethea46f43 entered promiscuous mode
+Dec 26 22:20:53 brock systemd-networkd[651]: vethea46f43: Link UP
+Dec 26 22:20:53 brock containerd[684]: time="2023-12-26T22:20:53.494141828Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:53 brock containerd[684]: time="2023-12-26T22:20:53.494329506Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:53 brock containerd[684]: time="2023-12-26T22:20:53.494348211Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:53 brock containerd[684]: time="2023-12-26T22:20:53.494679737Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e6116acbedb62571200de3c20d7089bb533d2ba69cd0612a8dfb40e8ae44cabc pid=52677 runtime=io.containerd.runc.v2
+Dec 26 22:20:53 brock systemd[1]: Started libcontainer container e6116acbedb62571200de3c20d7089bb533d2ba69cd0612a8dfb40e8ae44cabc.
+Dec 26 22:20:53 brock systemd[1]: run-docker-runtime\x2drunc-moby-e6116acbedb62571200de3c20d7089bb533d2ba69cd0612a8dfb40e8ae44cabc-runc.8baCFJ.mount: Deactivated successfully.
+Dec 26 22:20:53 brock kernel: eth0: renamed from vethb3437ae
+Dec 26 22:20:53 brock systemd-networkd[651]: vethea46f43: Gained carrier
+Dec 26 22:20:53 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:20:53 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethea46f43: link becomes ready
+Dec 26 22:20:53 brock kernel: docker0: port 1(vethea46f43) entered blocking state
+Dec 26 22:20:53 brock kernel: docker0: port 1(vethea46f43) entered forwarding state
+Dec 26 22:20:53 brock systemd[1]: docker-e6116acbedb62571200de3c20d7089bb533d2ba69cd0612a8dfb40e8ae44cabc.scope: Deactivated successfully.
+Dec 26 22:20:53 brock dockerd[758]: time="2023-12-26T22:20:53.693554401Z" level=info msg="ignoring event" container=e6116acbedb62571200de3c20d7089bb533d2ba69cd0612a8dfb40e8ae44cabc module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:53 brock containerd[684]: time="2023-12-26T22:20:53.694184285Z" level=info msg="shim disconnected" id=e6116acbedb62571200de3c20d7089bb533d2ba69cd0612a8dfb40e8ae44cabc
+Dec 26 22:20:53 brock containerd[684]: time="2023-12-26T22:20:53.694266530Z" level=warning msg="cleaning up after shim disconnected" id=e6116acbedb62571200de3c20d7089bb533d2ba69cd0612a8dfb40e8ae44cabc namespace=moby
+Dec 26 22:20:53 brock containerd[684]: time="2023-12-26T22:20:53.694280494Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:53 brock containerd[684]: time="2023-12-26T22:20:53.708975332Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:53Z\" level=info msg=\"starting signal loop\" namespace=moby pid=52735 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:53 brock systemd-networkd[651]: vethea46f43: Lost carrier
+Dec 26 22:20:53 brock kernel: docker0: port 1(vethea46f43) entered disabled state
+Dec 26 22:20:53 brock kernel: vethb3437ae: renamed from eth0
+Dec 26 22:20:53 brock networkd-dispatcher[674]: WARNING:Unknown index 119 seen, reloading interface list
+Dec 26 22:20:53 brock systemd-networkd[651]: vethea46f43: Link DOWN
+Dec 26 22:20:53 brock kernel: docker0: port 1(vethea46f43) entered disabled state
+Dec 26 22:20:53 brock kernel: device vethea46f43 left promiscuous mode
+Dec 26 22:20:53 brock kernel: docker0: port 1(vethea46f43) entered disabled state
+Dec 26 22:20:54 brock systemd[1]: var-lib-docker-overlay2-cdf37001acee3f8cbb88d4650fdbabbf1e3b5f5443a72de56f22f791cc534ab4-merged.mount: Deactivated successfully.
+Dec 26 22:20:54 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:20:54 brock sshd[52758]: Accepted publickey for jack from 10.0.0.49 port 57540 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:20:54 brock sshd[52758]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:20:54 brock systemd[1]: Started Session 43 of User jack.
+Dec 26 22:20:54 brock systemd-logind[680]: New session 43 of user jack.
+Dec 26 22:20:54 brock systemd[1]: var-lib-docker-overlay2-0a7d374fe8d8c2d65b146ef407ad4423a9411ff36005fc8a4ad0a7da228f6fd6\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:55 brock systemd[1]: var-lib-docker-overlay2-0a7d374fe8d8c2d65b146ef407ad4423a9411ff36005fc8a4ad0a7da228f6fd6-merged.mount: Deactivated successfully.
+Dec 26 22:20:55 brock networkd-dispatcher[674]: WARNING:Unknown index 121 seen, reloading interface list
+Dec 26 22:20:55 brock systemd-networkd[651]: veth0e05c8c: Link UP
+Dec 26 22:20:55 brock kernel: docker0: port 1(veth0e05c8c) entered blocking state
+Dec 26 22:20:55 brock kernel: docker0: port 1(veth0e05c8c) entered disabled state
+Dec 26 22:20:55 brock kernel: device veth0e05c8c entered promiscuous mode
+Dec 26 22:20:55 brock kernel: docker0: port 1(veth0e05c8c) entered blocking state
+Dec 26 22:20:55 brock kernel: docker0: port 1(veth0e05c8c) entered forwarding state
+Dec 26 22:20:55 brock kernel: docker0: port 1(veth0e05c8c) entered disabled state
+Dec 26 22:20:55 brock containerd[684]: time="2023-12-26T22:20:55.362118949Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:55 brock containerd[684]: time="2023-12-26T22:20:55.362234047Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:55 brock containerd[684]: time="2023-12-26T22:20:55.362243397Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:55 brock containerd[684]: time="2023-12-26T22:20:55.363848148Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/3a196a4b73f2c70558f307238e506f11d245ad8dddb020fe55c13ae673e7f43c pid=52867 runtime=io.containerd.runc.v2
+Dec 26 22:20:55 brock systemd[1]: Started libcontainer container 3a196a4b73f2c70558f307238e506f11d245ad8dddb020fe55c13ae673e7f43c.
+Dec 26 22:20:55 brock kernel: eth0: renamed from veth937b43b
+Dec 26 22:20:55 brock systemd-networkd[651]: veth0e05c8c: Gained carrier
+Dec 26 22:20:55 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:20:55 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth0e05c8c: link becomes ready
+Dec 26 22:20:55 brock kernel: docker0: port 1(veth0e05c8c) entered blocking state
+Dec 26 22:20:55 brock kernel: docker0: port 1(veth0e05c8c) entered forwarding state
+Dec 26 22:20:55 brock systemd[1]: var-lib-docker-overlay2-45cc5e7d787b4714f9020bcd35d01f092f90d5bb679a8de0ade0a3aad8bdc644\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:55 brock networkd-dispatcher[674]: WARNING:Unknown index 123 seen, reloading interface list
+Dec 26 22:20:55 brock systemd-networkd[651]: vethbfadb8a: Link UP
+Dec 26 22:20:55 brock kernel: docker0: port 2(vethbfadb8a) entered blocking state
+Dec 26 22:20:55 brock kernel: docker0: port 2(vethbfadb8a) entered disabled state
+Dec 26 22:20:55 brock kernel: device vethbfadb8a entered promiscuous mode
+Dec 26 22:20:55 brock kernel: docker0: port 2(vethbfadb8a) entered blocking state
+Dec 26 22:20:55 brock kernel: docker0: port 2(vethbfadb8a) entered forwarding state
+Dec 26 22:20:55 brock containerd[684]: time="2023-12-26T22:20:55.889989185Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:55 brock containerd[684]: time="2023-12-26T22:20:55.890174722Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:55 brock containerd[684]: time="2023-12-26T22:20:55.890196805Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:55 brock containerd[684]: time="2023-12-26T22:20:55.890439958Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/b19c50964ead530c6037973ba7acd6d56b255e0e0286baccc03c76fffb278e5c pid=52938 runtime=io.containerd.runc.v2
+Dec 26 22:20:55 brock systemd[1]: Started libcontainer container b19c50964ead530c6037973ba7acd6d56b255e0e0286baccc03c76fffb278e5c.
+Dec 26 22:20:56 brock kernel: eth0: renamed from vethe48df74
+Dec 26 22:20:56 brock systemd-networkd[651]: vethbfadb8a: Gained carrier
+Dec 26 22:20:56 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethbfadb8a: link becomes ready
+Dec 26 22:20:56 brock systemd[1]: var-lib-docker-overlay2-cfb2f97f14ab761661ef0a2394a58c3d71fd1ec34767c49cb5d70c6591c2ccac\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:56 brock systemd[1]: var-lib-docker-overlay2-cfb2f97f14ab761661ef0a2394a58c3d71fd1ec34767c49cb5d70c6591c2ccac-merged.mount: Deactivated successfully.
+Dec 26 22:20:56 brock containerd[684]: time="2023-12-26T22:20:56.882465878Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:56 brock containerd[684]: time="2023-12-26T22:20:56.883459722Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:56 brock containerd[684]: time="2023-12-26T22:20:56.883792749Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:56 brock containerd[684]: time="2023-12-26T22:20:56.884564194Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/f4961d452455d2ad3690f52a520bdb8e0c26c4be025cd0b7fa0c2201ba1abf54 pid=52988 runtime=io.containerd.runc.v2
+Dec 26 22:20:56 brock systemd[1]: Started libcontainer container f4961d452455d2ad3690f52a520bdb8e0c26c4be025cd0b7fa0c2201ba1abf54.
+Dec 26 22:20:56 brock kernel: TCP: request_sock_TCP: Possible SYN flooding on port 1337. Sending cookies.  Check SNMP counters.
+Dec 26 22:20:56 brock systemd[1]: docker-f4961d452455d2ad3690f52a520bdb8e0c26c4be025cd0b7fa0c2201ba1abf54.scope: Deactivated successfully.
+Dec 26 22:20:56 brock dockerd[758]: time="2023-12-26T22:20:56.973292056Z" level=info msg="ignoring event" container=f4961d452455d2ad3690f52a520bdb8e0c26c4be025cd0b7fa0c2201ba1abf54 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:56 brock containerd[684]: time="2023-12-26T22:20:56.974325604Z" level=info msg="shim disconnected" id=f4961d452455d2ad3690f52a520bdb8e0c26c4be025cd0b7fa0c2201ba1abf54
+Dec 26 22:20:56 brock containerd[684]: time="2023-12-26T22:20:56.974366167Z" level=warning msg="cleaning up after shim disconnected" id=f4961d452455d2ad3690f52a520bdb8e0c26c4be025cd0b7fa0c2201ba1abf54 namespace=moby
+Dec 26 22:20:56 brock containerd[684]: time="2023-12-26T22:20:56.974372084Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:56 brock containerd[684]: time="2023-12-26T22:20:56.988011478Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:56Z\" level=info msg=\"starting signal loop\" namespace=moby pid=53038 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.314058487Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.314493240Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.314581813Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.315048290Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/f4b3864749e1307f74f413b3703b63d2df089490cb448a8111c891a0b8cf7765 pid=53062 runtime=io.containerd.runc.v2
+Dec 26 22:20:57 brock systemd[1]: Started libcontainer container f4b3864749e1307f74f413b3703b63d2df089490cb448a8111c891a0b8cf7765.
+Dec 26 22:20:57 brock systemd[1]: docker-f4b3864749e1307f74f413b3703b63d2df089490cb448a8111c891a0b8cf7765.scope: Deactivated successfully.
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.411220785Z" level=info msg="shim disconnected" id=f4b3864749e1307f74f413b3703b63d2df089490cb448a8111c891a0b8cf7765
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.411298963Z" level=warning msg="cleaning up after shim disconnected" id=f4b3864749e1307f74f413b3703b63d2df089490cb448a8111c891a0b8cf7765 namespace=moby
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.411308854Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:57 brock dockerd[758]: time="2023-12-26T22:20:57.413245124Z" level=info msg="ignoring event" container=f4b3864749e1307f74f413b3703b63d2df089490cb448a8111c891a0b8cf7765 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.423075882Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:57Z\" level=info msg=\"starting signal loop\" namespace=moby pid=53112 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:57 brock systemd[1]: var-lib-docker-overlay2-058da2f940a9d68f9079442fc5aaed7d15dcdff10c3427181a606ce407b491f9-merged.mount: Deactivated successfully.
+Dec 26 22:20:57 brock systemd-networkd[651]: veth0e05c8c: Gained IPv6LL
+Dec 26 22:20:57 brock systemd[1]: docker-3a196a4b73f2c70558f307238e506f11d245ad8dddb020fe55c13ae673e7f43c.scope: Deactivated successfully.
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.940773810Z" level=info msg="shim disconnected" id=3a196a4b73f2c70558f307238e506f11d245ad8dddb020fe55c13ae673e7f43c
+Dec 26 22:20:57 brock dockerd[758]: time="2023-12-26T22:20:57.941100780Z" level=info msg="ignoring event" container=3a196a4b73f2c70558f307238e506f11d245ad8dddb020fe55c13ae673e7f43c module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.941432188Z" level=warning msg="cleaning up after shim disconnected" id=3a196a4b73f2c70558f307238e506f11d245ad8dddb020fe55c13ae673e7f43c namespace=moby
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.941494278Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:57 brock containerd[684]: time="2023-12-26T22:20:57.955754462Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:57Z\" level=info msg=\"starting signal loop\" namespace=moby pid=53150 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:58 brock systemd-networkd[651]: veth0e05c8c: Lost carrier
+Dec 26 22:20:58 brock kernel: docker0: port 1(veth0e05c8c) entered disabled state
+Dec 26 22:20:58 brock kernel: veth937b43b: renamed from eth0
+Dec 26 22:20:58 brock systemd-networkd[651]: vethbfadb8a: Gained IPv6LL
+Dec 26 22:20:58 brock networkd-dispatcher[674]: WARNING:Unknown index 121 seen, reloading interface list
+Dec 26 22:20:58 brock systemd-networkd[651]: veth0e05c8c: Link DOWN
+Dec 26 22:20:58 brock kernel: docker0: port 1(veth0e05c8c) entered disabled state
+Dec 26 22:20:58 brock kernel: device veth0e05c8c left promiscuous mode
+Dec 26 22:20:58 brock kernel: docker0: port 1(veth0e05c8c) entered disabled state
+Dec 26 22:20:58 brock systemd[1]: run-docker-netns-484a7c69a438.mount: Deactivated successfully.
+Dec 26 22:20:58 brock systemd[1]: var-lib-docker-overlay2-0a7d374fe8d8c2d65b146ef407ad4423a9411ff36005fc8a4ad0a7da228f6fd6-merged.mount: Deactivated successfully.
+Dec 26 22:20:58 brock systemd[1]: docker-b19c50964ead530c6037973ba7acd6d56b255e0e0286baccc03c76fffb278e5c.scope: Deactivated successfully.
+Dec 26 22:20:58 brock containerd[684]: time="2023-12-26T22:20:58.239578926Z" level=info msg="shim disconnected" id=b19c50964ead530c6037973ba7acd6d56b255e0e0286baccc03c76fffb278e5c
+Dec 26 22:20:58 brock containerd[684]: time="2023-12-26T22:20:58.239716667Z" level=warning msg="cleaning up after shim disconnected" id=b19c50964ead530c6037973ba7acd6d56b255e0e0286baccc03c76fffb278e5c namespace=moby
+Dec 26 22:20:58 brock containerd[684]: time="2023-12-26T22:20:58.239728311Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:58 brock dockerd[758]: time="2023-12-26T22:20:58.240154562Z" level=info msg="ignoring event" container=b19c50964ead530c6037973ba7acd6d56b255e0e0286baccc03c76fffb278e5c module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:58 brock containerd[684]: time="2023-12-26T22:20:58.250295592Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:58Z\" level=info msg=\"starting signal loop\" namespace=moby pid=53222 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:58 brock systemd-networkd[651]: vethbfadb8a: Lost carrier
+Dec 26 22:20:58 brock kernel: docker0: port 2(vethbfadb8a) entered disabled state
+Dec 26 22:20:58 brock kernel: vethe48df74: renamed from eth0
+Dec 26 22:20:58 brock networkd-dispatcher[674]: WARNING:Unknown index 123 seen, reloading interface list
+Dec 26 22:20:58 brock systemd-networkd[651]: vethbfadb8a: Link DOWN
+Dec 26 22:20:58 brock kernel: docker0: port 2(vethbfadb8a) entered disabled state
+Dec 26 22:20:58 brock kernel: device vethbfadb8a left promiscuous mode
+Dec 26 22:20:58 brock kernel: docker0: port 2(vethbfadb8a) entered disabled state
+Dec 26 22:20:58 brock systemd[1]: run-docker-netns-1961da8683d5.mount: Deactivated successfully.
+Dec 26 22:20:58 brock systemd[1]: var-lib-docker-overlay2-45cc5e7d787b4714f9020bcd35d01f092f90d5bb679a8de0ade0a3aad8bdc644-merged.mount: Deactivated successfully.
+Dec 26 22:20:58 brock systemd[1]: var-lib-docker-overlay2-3a2f0c5a13cb8d6706e46495254fb51f133c701cc7f164d855c8325e74c40817\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:20:59 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:20:59 brock networkd-dispatcher[674]: WARNING:Unknown index 125 seen, reloading interface list
+Dec 26 22:20:59 brock kernel: docker0: port 1(vethb04a7cc) entered blocking state
+Dec 26 22:20:59 brock kernel: docker0: port 1(vethb04a7cc) entered disabled state
+Dec 26 22:20:59 brock kernel: device vethb04a7cc entered promiscuous mode
+Dec 26 22:20:59 brock kernel: docker0: port 1(vethb04a7cc) entered blocking state
+Dec 26 22:20:59 brock kernel: docker0: port 1(vethb04a7cc) entered forwarding state
+Dec 26 22:20:59 brock kernel: docker0: port 1(vethb04a7cc) entered disabled state
+Dec 26 22:20:59 brock systemd-networkd[651]: vethb04a7cc: Link UP
+Dec 26 22:20:59 brock containerd[684]: time="2023-12-26T22:20:59.302012497Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:20:59 brock containerd[684]: time="2023-12-26T22:20:59.302118003Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:20:59 brock containerd[684]: time="2023-12-26T22:20:59.302125276Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:20:59 brock containerd[684]: time="2023-12-26T22:20:59.302778867Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/60250070c7bc39962de4391b1f83a67939bf328fbcd0ef408f793bee693f3a9c pid=53263 runtime=io.containerd.runc.v2
+Dec 26 22:20:59 brock systemd[1]: Started libcontainer container 60250070c7bc39962de4391b1f83a67939bf328fbcd0ef408f793bee693f3a9c.
+Dec 26 22:20:59 brock kernel: eth0: renamed from veth4c178db
+Dec 26 22:20:59 brock systemd-networkd[651]: vethb04a7cc: Gained carrier
+Dec 26 22:20:59 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:20:59 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethb04a7cc: link becomes ready
+Dec 26 22:20:59 brock kernel: docker0: port 1(vethb04a7cc) entered blocking state
+Dec 26 22:20:59 brock kernel: docker0: port 1(vethb04a7cc) entered forwarding state
+Dec 26 22:20:59 brock systemd[1]: docker-60250070c7bc39962de4391b1f83a67939bf328fbcd0ef408f793bee693f3a9c.scope: Deactivated successfully.
+Dec 26 22:20:59 brock dockerd[758]: time="2023-12-26T22:20:59.731096096Z" level=info msg="ignoring event" container=60250070c7bc39962de4391b1f83a67939bf328fbcd0ef408f793bee693f3a9c module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:20:59 brock containerd[684]: time="2023-12-26T22:20:59.731658285Z" level=info msg="shim disconnected" id=60250070c7bc39962de4391b1f83a67939bf328fbcd0ef408f793bee693f3a9c
+Dec 26 22:20:59 brock containerd[684]: time="2023-12-26T22:20:59.731833184Z" level=warning msg="cleaning up after shim disconnected" id=60250070c7bc39962de4391b1f83a67939bf328fbcd0ef408f793bee693f3a9c namespace=moby
+Dec 26 22:20:59 brock containerd[684]: time="2023-12-26T22:20:59.731844269Z" level=info msg="cleaning up dead shim"
+Dec 26 22:20:59 brock containerd[684]: time="2023-12-26T22:20:59.746496323Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:20:59Z\" level=info msg=\"starting signal loop\" namespace=moby pid=53637 runtime=io.containerd.runc.v2\n"
+Dec 26 22:20:59 brock systemd-networkd[651]: vethb04a7cc: Lost carrier
+Dec 26 22:20:59 brock kernel: docker0: port 1(vethb04a7cc) entered disabled state
+Dec 26 22:20:59 brock kernel: veth4c178db: renamed from eth0
+Dec 26 22:20:59 brock networkd-dispatcher[674]: WARNING:Unknown index 125 seen, reloading interface list
+Dec 26 22:20:59 brock systemd-networkd[651]: vethb04a7cc: Link DOWN
+Dec 26 22:20:59 brock kernel: docker0: port 1(vethb04a7cc) entered disabled state
+Dec 26 22:20:59 brock kernel: device vethb04a7cc left promiscuous mode
+Dec 26 22:20:59 brock kernel: docker0: port 1(vethb04a7cc) entered disabled state
+Dec 26 22:20:59 brock systemd[1]: run-docker-netns-f70631c2cb6d.mount: Deactivated successfully.
+Dec 26 22:20:59 brock systemd[1]: var-lib-docker-overlay2-3a2f0c5a13cb8d6706e46495254fb51f133c701cc7f164d855c8325e74c40817-merged.mount: Deactivated successfully.
+Dec 26 22:21:00 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:21:04 brock systemd[1]: var-lib-docker-overlay2-d735255289764a8fa22c034664961e57433b2333e6f14c25dc14658dc3329e91\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:21:04 brock systemd[1]: var-lib-docker-overlay2-d735255289764a8fa22c034664961e57433b2333e6f14c25dc14658dc3329e91-merged.mount: Deactivated successfully.
+Dec 26 22:21:04 brock networkd-dispatcher[674]: WARNING:Unknown index 127 seen, reloading interface list
+Dec 26 22:21:04 brock kernel: docker0: port 1(veth6e305ae) entered blocking state
+Dec 26 22:21:04 brock kernel: docker0: port 1(veth6e305ae) entered disabled state
+Dec 26 22:21:04 brock systemd-udevd[53679]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:04 brock systemd-udevd[53680]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:04 brock systemd-networkd[651]: veth6e305ae: Link UP
+Dec 26 22:21:04 brock kernel: device veth6e305ae entered promiscuous mode
+Dec 26 22:21:04 brock containerd[684]: time="2023-12-26T22:21:04.853536926Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:04 brock containerd[684]: time="2023-12-26T22:21:04.854029213Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:04 brock containerd[684]: time="2023-12-26T22:21:04.854104105Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:04 brock containerd[684]: time="2023-12-26T22:21:04.854368455Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/cedb7edf638fe6028f54c3d063c00374fc9ede449cc4aeb64a2287fd193a1b81 pid=53706 runtime=io.containerd.runc.v2
+Dec 26 22:21:04 brock systemd[1]: Started libcontainer container cedb7edf638fe6028f54c3d063c00374fc9ede449cc4aeb64a2287fd193a1b81.
+Dec 26 22:21:04 brock kernel: eth0: renamed from veth045a849
+Dec 26 22:21:04 brock systemd-networkd[651]: veth6e305ae: Gained carrier
+Dec 26 22:21:04 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:21:04 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth6e305ae: link becomes ready
+Dec 26 22:21:04 brock kernel: docker0: port 1(veth6e305ae) entered blocking state
+Dec 26 22:21:04 brock kernel: docker0: port 1(veth6e305ae) entered forwarding state
+Dec 26 22:21:05 brock systemd[1]: docker-cedb7edf638fe6028f54c3d063c00374fc9ede449cc4aeb64a2287fd193a1b81.scope: Deactivated successfully.
+Dec 26 22:21:05 brock dockerd[758]: time="2023-12-26T22:21:05.051349530Z" level=info msg="ignoring event" container=cedb7edf638fe6028f54c3d063c00374fc9ede449cc4aeb64a2287fd193a1b81 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.051782080Z" level=info msg="shim disconnected" id=cedb7edf638fe6028f54c3d063c00374fc9ede449cc4aeb64a2287fd193a1b81
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.052010427Z" level=warning msg="cleaning up after shim disconnected" id=cedb7edf638fe6028f54c3d063c00374fc9ede449cc4aeb64a2287fd193a1b81 namespace=moby
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.052021830Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.067365987Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:05Z\" level=info msg=\"starting signal loop\" namespace=moby pid=53776 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:05 brock systemd-networkd[651]: veth6e305ae: Lost carrier
+Dec 26 22:21:05 brock kernel: docker0: port 1(veth6e305ae) entered disabled state
+Dec 26 22:21:05 brock kernel: veth045a849: renamed from eth0
+Dec 26 22:21:05 brock networkd-dispatcher[674]: WARNING:Unknown index 127 seen, reloading interface list
+Dec 26 22:21:05 brock systemd-udevd[53695]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:05 brock systemd-networkd[651]: veth6e305ae: Link DOWN
+Dec 26 22:21:05 brock kernel: docker0: port 1(veth6e305ae) entered disabled state
+Dec 26 22:21:05 brock kernel: device veth6e305ae left promiscuous mode
+Dec 26 22:21:05 brock kernel: docker0: port 1(veth6e305ae) entered disabled state
+Dec 26 22:21:05 brock systemd-networkd[651]: veth48a6a0e: Link UP
+Dec 26 22:21:05 brock networkd-dispatcher[674]: WARNING:Unknown index 129 seen, reloading interface list
+Dec 26 22:21:05 brock kernel: docker0: port 1(veth48a6a0e) entered blocking state
+Dec 26 22:21:05 brock kernel: docker0: port 1(veth48a6a0e) entered disabled state
+Dec 26 22:21:05 brock kernel: device veth48a6a0e entered promiscuous mode
+Dec 26 22:21:05 brock kernel: docker0: port 1(veth48a6a0e) entered blocking state
+Dec 26 22:21:05 brock kernel: docker0: port 1(veth48a6a0e) entered forwarding state
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.515194993Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.515512992Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.515522343Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.516356055Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/dd026f1026b1ed70465327bfdc584444d5632af620841e5f902dfe9cd2bb6826 pid=53813 runtime=io.containerd.runc.v2
+Dec 26 22:21:05 brock systemd[1]: var-lib-docker-overlay2-d735255289764a8fa22c034664961e57433b2333e6f14c25dc14658dc3329e91-merged.mount: Deactivated successfully.
+Dec 26 22:21:05 brock systemd[1]: Started libcontainer container dd026f1026b1ed70465327bfdc584444d5632af620841e5f902dfe9cd2bb6826.
+Dec 26 22:21:05 brock kernel: eth0: renamed from vethec1351e
+Dec 26 22:21:05 brock systemd-networkd[651]: veth48a6a0e: Gained carrier
+Dec 26 22:21:05 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth48a6a0e: link becomes ready
+Dec 26 22:21:05 brock systemd[1]: docker-dd026f1026b1ed70465327bfdc584444d5632af620841e5f902dfe9cd2bb6826.scope: Deactivated successfully.
+Dec 26 22:21:05 brock dockerd[758]: time="2023-12-26T22:21:05.710525324Z" level=info msg="ignoring event" container=dd026f1026b1ed70465327bfdc584444d5632af620841e5f902dfe9cd2bb6826 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.711205598Z" level=info msg="shim disconnected" id=dd026f1026b1ed70465327bfdc584444d5632af620841e5f902dfe9cd2bb6826
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.711278971Z" level=warning msg="cleaning up after shim disconnected" id=dd026f1026b1ed70465327bfdc584444d5632af620841e5f902dfe9cd2bb6826 namespace=moby
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.711289809Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:05 brock containerd[684]: time="2023-12-26T22:21:05.726332189Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:05Z\" level=info msg=\"starting signal loop\" namespace=moby pid=53866 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:05 brock systemd-networkd[651]: veth48a6a0e: Lost carrier
+Dec 26 22:21:05 brock kernel: docker0: port 1(veth48a6a0e) entered disabled state
+Dec 26 22:21:05 brock kernel: vethec1351e: renamed from eth0
+Dec 26 22:21:05 brock networkd-dispatcher[674]: WARNING:Unknown index 129 seen, reloading interface list
+Dec 26 22:21:05 brock systemd-networkd[651]: veth48a6a0e: Link DOWN
+Dec 26 22:21:05 brock kernel: docker0: port 1(veth48a6a0e) entered disabled state
+Dec 26 22:21:05 brock kernel: device veth48a6a0e left promiscuous mode
+Dec 26 22:21:05 brock kernel: docker0: port 1(veth48a6a0e) entered disabled state
+Dec 26 22:21:05 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:21:05 brock networkd-dispatcher[674]: ERROR:Unknown interface index 129 seen even after reload
+Dec 26 22:21:05 brock networkd-dispatcher[674]: WARNING:Unknown index 129 seen, reloading interface list
+Dec 26 22:21:05 brock networkd-dispatcher[674]: ERROR:Unknown interface index 129 seen even after reload
+Dec 26 22:21:05 brock systemd[1]: run-docker-netns-025e5a8ba741.mount: Deactivated successfully.
+Dec 26 22:21:05 brock systemd[1]: var-lib-docker-overlay2-6736019222fd05171284b6bc891a24ba3a8433fbcb8bbf783a1e1135502b08ff-merged.mount: Deactivated successfully.
+Dec 26 22:21:06 brock networkd-dispatcher[674]: WARNING:Unknown index 131 seen, reloading interface list
+Dec 26 22:21:06 brock systemd-networkd[651]: veth08b0e6e: Link UP
+Dec 26 22:21:06 brock kernel: docker0: port 1(veth08b0e6e) entered blocking state
+Dec 26 22:21:06 brock kernel: docker0: port 1(veth08b0e6e) entered disabled state
+Dec 26 22:21:06 brock kernel: device veth08b0e6e entered promiscuous mode
+Dec 26 22:21:06 brock kernel: docker0: port 1(veth08b0e6e) entered blocking state
+Dec 26 22:21:06 brock kernel: docker0: port 1(veth08b0e6e) entered forwarding state
+Dec 26 22:21:06 brock kernel: docker0: port 1(veth08b0e6e) entered disabled state
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.176082896Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.176224151Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.176234916Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.177060403Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/09a951a06e4daeda9b5d9cc145aecfe777360c7fff769c9fc57901e8657f6293 pid=53902 runtime=io.containerd.runc.v2
+Dec 26 22:21:06 brock systemd[1]: Started libcontainer container 09a951a06e4daeda9b5d9cc145aecfe777360c7fff769c9fc57901e8657f6293.
+Dec 26 22:21:06 brock kernel: eth0: renamed from veth53b38d5
+Dec 26 22:21:06 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth08b0e6e: link becomes ready
+Dec 26 22:21:06 brock kernel: docker0: port 1(veth08b0e6e) entered blocking state
+Dec 26 22:21:06 brock kernel: docker0: port 1(veth08b0e6e) entered forwarding state
+Dec 26 22:21:06 brock systemd-networkd[651]: veth08b0e6e: Gained carrier
+Dec 26 22:21:06 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:21:06 brock systemd[1]: docker-09a951a06e4daeda9b5d9cc145aecfe777360c7fff769c9fc57901e8657f6293.scope: Deactivated successfully.
+Dec 26 22:21:06 brock dockerd[758]: time="2023-12-26T22:21:06.369182568Z" level=info msg="ignoring event" container=09a951a06e4daeda9b5d9cc145aecfe777360c7fff769c9fc57901e8657f6293 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.370052587Z" level=info msg="shim disconnected" id=09a951a06e4daeda9b5d9cc145aecfe777360c7fff769c9fc57901e8657f6293
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.370123810Z" level=warning msg="cleaning up after shim disconnected" id=09a951a06e4daeda9b5d9cc145aecfe777360c7fff769c9fc57901e8657f6293 namespace=moby
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.370134813Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.383710152Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:06Z\" level=info msg=\"starting signal loop\" namespace=moby pid=53953 runtime=io.containerd.runc.v2\ntime=\"2023-12-26T22:21:06Z\" level=warning msg=\"failed to remove runc container\" error=\"runc did not terminate successfully: exit status 255: \" runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:06 brock systemd-networkd[651]: veth08b0e6e: Lost carrier
+Dec 26 22:21:06 brock kernel: docker0: port 1(veth08b0e6e) entered disabled state
+Dec 26 22:21:06 brock kernel: veth53b38d5: renamed from eth0
+Dec 26 22:21:06 brock networkd-dispatcher[674]: WARNING:Unknown index 131 seen, reloading interface list
+Dec 26 22:21:06 brock systemd-networkd[651]: veth08b0e6e: Link DOWN
+Dec 26 22:21:06 brock kernel: docker0: port 1(veth08b0e6e) entered disabled state
+Dec 26 22:21:06 brock kernel: device veth08b0e6e left promiscuous mode
+Dec 26 22:21:06 brock kernel: docker0: port 1(veth08b0e6e) entered disabled state
+Dec 26 22:21:06 brock networkd-dispatcher[674]: ERROR:Unknown interface index 131 seen even after reload
+Dec 26 22:21:06 brock networkd-dispatcher[674]: WARNING:Unknown index 131 seen, reloading interface list
+Dec 26 22:21:06 brock networkd-dispatcher[674]: ERROR:Unknown interface index 131 seen even after reload
+Dec 26 22:21:06 brock networkd-dispatcher[674]: WARNING:Unknown index 131 seen, reloading interface list
+Dec 26 22:21:06 brock networkd-dispatcher[674]: ERROR:Unknown interface index 131 seen even after reload
+Dec 26 22:21:06 brock networkd-dispatcher[674]: WARNING:Unknown index 131 seen, reloading interface list
+Dec 26 22:21:06 brock networkd-dispatcher[674]: ERROR:Unknown interface index 131 seen even after reload
+Dec 26 22:21:06 brock systemd[1]: var-lib-docker-overlay2-9ff0f13990509cf8370e26c11e417a6cc93b383f85ede41b0746dffe4c959218-merged.mount: Deactivated successfully.
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.631322444Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.631422880Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.631431580Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:06 brock containerd[684]: time="2023-12-26T22:21:06.632036651Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/7e58a938710dcff878fbde3c487138f566d5745140dcaa967357c2403207584e pid=53987 runtime=io.containerd.runc.v2
+Dec 26 22:21:06 brock systemd[1]: Started libcontainer container 7e58a938710dcff878fbde3c487138f566d5745140dcaa967357c2403207584e.
+Dec 26 22:21:06 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:21:07 brock containerd[684]: time="2023-12-26T22:21:07.030750035Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:07 brock containerd[684]: time="2023-12-26T22:21:07.031019058Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:07 brock containerd[684]: time="2023-12-26T22:21:07.031028343Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:07 brock containerd[684]: time="2023-12-26T22:21:07.031867475Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/bc503fc6b151cebb10132de9a2159775da0e29fce28a218ac43763bd80b787f1 pid=54034 runtime=io.containerd.runc.v2
+Dec 26 22:21:07 brock systemd[1]: Started libcontainer container bc503fc6b151cebb10132de9a2159775da0e29fce28a218ac43763bd80b787f1.
+Dec 26 22:21:12 brock systemd[1]: var-lib-docker-overlay2-fd76747b4e49cab647ee6406f2495271d893301fec6008258af4a352d7f5cdec\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:21:12 brock systemd[1]: var-lib-docker-overlay2-fd76747b4e49cab647ee6406f2495271d893301fec6008258af4a352d7f5cdec-merged.mount: Deactivated successfully.
+Dec 26 22:21:12 brock systemd-udevd[54104]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:12 brock systemd-udevd[54103]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:12 brock networkd-dispatcher[674]: WARNING:Unknown index 133 seen, reloading interface list
+Dec 26 22:21:12 brock systemd-networkd[651]: vethd7a0697: Link UP
+Dec 26 22:21:12 brock kernel: docker0: port 1(vethd7a0697) entered blocking state
+Dec 26 22:21:12 brock kernel: docker0: port 1(vethd7a0697) entered disabled state
+Dec 26 22:21:12 brock kernel: device vethd7a0697 entered promiscuous mode
+Dec 26 22:21:12 brock containerd[684]: time="2023-12-26T22:21:12.434669544Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:12 brock containerd[684]: time="2023-12-26T22:21:12.434735660Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:12 brock containerd[684]: time="2023-12-26T22:21:12.434741844Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:12 brock containerd[684]: time="2023-12-26T22:21:12.435381584Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/958306fbe3fa49387b4a80aaec46a9af972cdeda44949e177a8991b90fb8fef8 pid=54128 runtime=io.containerd.runc.v2
+Dec 26 22:21:12 brock systemd[1]: Started libcontainer container 958306fbe3fa49387b4a80aaec46a9af972cdeda44949e177a8991b90fb8fef8.
+Dec 26 22:21:12 brock kernel: eth0: renamed from veth21894fe
+Dec 26 22:21:12 brock systemd-networkd[651]: vethd7a0697: Gained carrier
+Dec 26 22:21:12 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethd7a0697: link becomes ready
+Dec 26 22:21:12 brock kernel: docker0: port 1(vethd7a0697) entered blocking state
+Dec 26 22:21:12 brock kernel: docker0: port 1(vethd7a0697) entered forwarding state
+Dec 26 22:21:12 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:21:12 brock systemd[1]: docker-958306fbe3fa49387b4a80aaec46a9af972cdeda44949e177a8991b90fb8fef8.scope: Deactivated successfully.
+Dec 26 22:21:12 brock dockerd[758]: time="2023-12-26T22:21:12.629791695Z" level=info msg="ignoring event" container=958306fbe3fa49387b4a80aaec46a9af972cdeda44949e177a8991b90fb8fef8 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:12 brock containerd[684]: time="2023-12-26T22:21:12.630082429Z" level=info msg="shim disconnected" id=958306fbe3fa49387b4a80aaec46a9af972cdeda44949e177a8991b90fb8fef8
+Dec 26 22:21:12 brock containerd[684]: time="2023-12-26T22:21:12.630114368Z" level=warning msg="cleaning up after shim disconnected" id=958306fbe3fa49387b4a80aaec46a9af972cdeda44949e177a8991b90fb8fef8 namespace=moby
+Dec 26 22:21:12 brock containerd[684]: time="2023-12-26T22:21:12.630191413Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:12 brock containerd[684]: time="2023-12-26T22:21:12.643341885Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:12Z\" level=info msg=\"starting signal loop\" namespace=moby pid=54183 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:12 brock kernel: docker0: port 1(vethd7a0697) entered disabled state
+Dec 26 22:21:12 brock kernel: veth21894fe: renamed from eth0
+Dec 26 22:21:12 brock systemd-networkd[651]: vethd7a0697: Lost carrier
+Dec 26 22:21:12 brock systemd-udevd[54111]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:12 brock networkd-dispatcher[674]: WARNING:Unknown index 133 seen, reloading interface list
+Dec 26 22:21:12 brock systemd-networkd[651]: vethd7a0697: Link DOWN
+Dec 26 22:21:12 brock kernel: docker0: port 1(vethd7a0697) entered disabled state
+Dec 26 22:21:12 brock kernel: device vethd7a0697 left promiscuous mode
+Dec 26 22:21:12 brock kernel: docker0: port 1(vethd7a0697) entered disabled state
+Dec 26 22:21:13 brock systemd-networkd[651]: vetha3cd488: Link UP
+Dec 26 22:21:13 brock networkd-dispatcher[674]: WARNING:Unknown index 135 seen, reloading interface list
+Dec 26 22:21:13 brock kernel: docker0: port 1(vetha3cd488) entered blocking state
+Dec 26 22:21:13 brock kernel: docker0: port 1(vetha3cd488) entered disabled state
+Dec 26 22:21:13 brock kernel: device vetha3cd488 entered promiscuous mode
+Dec 26 22:21:13 brock kernel: docker0: port 1(vetha3cd488) entered blocking state
+Dec 26 22:21:13 brock kernel: docker0: port 1(vetha3cd488) entered forwarding state
+Dec 26 22:21:13 brock systemd[1]: var-lib-docker-overlay2-fd76747b4e49cab647ee6406f2495271d893301fec6008258af4a352d7f5cdec-merged.mount: Deactivated successfully.
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.151896912Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.151957908Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.151963997Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.152404463Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/e39ef3d5736e5ce4b2035fc59ea8a7f5a108098fdcd78fa7c388660418e36716 pid=54218 runtime=io.containerd.runc.v2
+Dec 26 22:21:13 brock systemd[1]: Started libcontainer container e39ef3d5736e5ce4b2035fc59ea8a7f5a108098fdcd78fa7c388660418e36716.
+Dec 26 22:21:13 brock kernel: eth0: renamed from veth7102d87
+Dec 26 22:21:13 brock systemd-networkd[651]: vetha3cd488: Gained carrier
+Dec 26 22:21:13 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vetha3cd488: link becomes ready
+Dec 26 22:21:13 brock systemd[1]: docker-e39ef3d5736e5ce4b2035fc59ea8a7f5a108098fdcd78fa7c388660418e36716.scope: Deactivated successfully.
+Dec 26 22:21:13 brock dockerd[758]: time="2023-12-26T22:21:13.350778804Z" level=info msg="ignoring event" container=e39ef3d5736e5ce4b2035fc59ea8a7f5a108098fdcd78fa7c388660418e36716 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.353951032Z" level=info msg="shim disconnected" id=e39ef3d5736e5ce4b2035fc59ea8a7f5a108098fdcd78fa7c388660418e36716
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.353984141Z" level=warning msg="cleaning up after shim disconnected" id=e39ef3d5736e5ce4b2035fc59ea8a7f5a108098fdcd78fa7c388660418e36716 namespace=moby
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.353992210Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.366133476Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:13Z\" level=info msg=\"starting signal loop\" namespace=moby pid=54276 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:13 brock systemd-networkd[651]: vetha3cd488: Lost carrier
+Dec 26 22:21:13 brock kernel: docker0: port 1(vetha3cd488) entered disabled state
+Dec 26 22:21:13 brock kernel: veth7102d87: renamed from eth0
+Dec 26 22:21:13 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:21:13 brock networkd-dispatcher[674]: WARNING:Unknown index 135 seen, reloading interface list
+Dec 26 22:21:13 brock systemd-networkd[651]: vetha3cd488: Link DOWN
+Dec 26 22:21:13 brock kernel: docker0: port 1(vetha3cd488) entered disabled state
+Dec 26 22:21:13 brock kernel: device vetha3cd488 left promiscuous mode
+Dec 26 22:21:13 brock kernel: docker0: port 1(vetha3cd488) entered disabled state
+Dec 26 22:21:13 brock networkd-dispatcher[674]: ERROR:Unknown interface index 135 seen even after reload
+Dec 26 22:21:13 brock networkd-dispatcher[674]: WARNING:Unknown index 135 seen, reloading interface list
+Dec 26 22:21:13 brock networkd-dispatcher[674]: ERROR:Unknown interface index 135 seen even after reload
+Dec 26 22:21:13 brock systemd[1]: run-docker-netns-c8b643f21415.mount: Deactivated successfully.
+Dec 26 22:21:13 brock systemd[1]: var-lib-docker-overlay2-121a7e9030f522120ada964a3f1e4475e3e767dc30b8184856981e53652d7177-merged.mount: Deactivated successfully.
+Dec 26 22:21:13 brock networkd-dispatcher[674]: WARNING:Unknown index 137 seen, reloading interface list
+Dec 26 22:21:13 brock systemd-networkd[651]: vethf887606: Link UP
+Dec 26 22:21:13 brock kernel: docker0: port 1(vethf887606) entered blocking state
+Dec 26 22:21:13 brock kernel: docker0: port 1(vethf887606) entered disabled state
+Dec 26 22:21:13 brock kernel: device vethf887606 entered promiscuous mode
+Dec 26 22:21:13 brock kernel: docker0: port 1(vethf887606) entered blocking state
+Dec 26 22:21:13 brock kernel: docker0: port 1(vethf887606) entered forwarding state
+Dec 26 22:21:13 brock kernel: docker0: port 1(vethf887606) entered disabled state
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.860868473Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.860975511Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.860984300Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:13 brock containerd[684]: time="2023-12-26T22:21:13.861332094Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/c88a20d64235558f5caf14fff47f47db61a9652be179ea5e32d8607957e4f7bb pid=54316 runtime=io.containerd.runc.v2
+Dec 26 22:21:13 brock systemd[1]: Started libcontainer container c88a20d64235558f5caf14fff47f47db61a9652be179ea5e32d8607957e4f7bb.
+Dec 26 22:21:13 brock kernel: eth0: renamed from veth1fa2242
+Dec 26 22:21:13 brock systemd-networkd[651]: vethf887606: Gained carrier
+Dec 26 22:21:13 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:21:13 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethf887606: link becomes ready
+Dec 26 22:21:13 brock kernel: docker0: port 1(vethf887606) entered blocking state
+Dec 26 22:21:14 brock kernel: docker0: port 1(vethf887606) entered forwarding state
+Dec 26 22:21:14 brock systemd[1]: docker-c88a20d64235558f5caf14fff47f47db61a9652be179ea5e32d8607957e4f7bb.scope: Deactivated successfully.
+Dec 26 22:21:14 brock dockerd[758]: time="2023-12-26T22:21:14.049736491Z" level=info msg="ignoring event" container=c88a20d64235558f5caf14fff47f47db61a9652be179ea5e32d8607957e4f7bb module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:14 brock containerd[684]: time="2023-12-26T22:21:14.050428428Z" level=info msg="shim disconnected" id=c88a20d64235558f5caf14fff47f47db61a9652be179ea5e32d8607957e4f7bb
+Dec 26 22:21:14 brock containerd[684]: time="2023-12-26T22:21:14.050494919Z" level=warning msg="cleaning up after shim disconnected" id=c88a20d64235558f5caf14fff47f47db61a9652be179ea5e32d8607957e4f7bb namespace=moby
+Dec 26 22:21:14 brock containerd[684]: time="2023-12-26T22:21:14.050505173Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:14 brock containerd[684]: time="2023-12-26T22:21:14.065105328Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:14Z\" level=info msg=\"starting signal loop\" namespace=moby pid=54371 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:14 brock systemd-networkd[651]: vethf887606: Lost carrier
+Dec 26 22:21:14 brock kernel: docker0: port 1(vethf887606) entered disabled state
+Dec 26 22:21:14 brock kernel: veth1fa2242: renamed from eth0
+Dec 26 22:21:14 brock networkd-dispatcher[674]: WARNING:Unknown index 137 seen, reloading interface list
+Dec 26 22:21:14 brock kernel: docker0: port 1(vethf887606) entered disabled state
+Dec 26 22:21:14 brock kernel: device vethf887606 left promiscuous mode
+Dec 26 22:21:14 brock kernel: docker0: port 1(vethf887606) entered disabled state
+Dec 26 22:21:14 brock systemd-networkd[651]: vethf887606: Link DOWN
+Dec 26 22:21:14 brock systemd[1]: run-docker-netns-433fbff65e23.mount: Deactivated successfully.
+Dec 26 22:21:14 brock systemd[1]: var-lib-docker-overlay2-5f87a013ae123d76a11db454b7b8c6b37583ca26309772fcb0437af1b68402b8-merged.mount: Deactivated successfully.
+Dec 26 22:21:14 brock sshd[54391]: Accepted publickey for jack from 10.0.0.49 port 57532 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:14 brock sshd[54391]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:14 brock systemd-logind[680]: New session 44 of user jack.
+Dec 26 22:21:14 brock systemd[1]: Started Session 44 of User jack.
+Dec 26 22:21:14 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:21:14 brock systemd[1]: var-lib-docker-overlay2-aa09d5d1c57fe13260a7e237b27803f32b0383fccc0fb69d4514d9b7d31a1c27\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:21:14 brock containerd[684]: time="2023-12-26T22:21:14.994565766Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:14 brock containerd[684]: time="2023-12-26T22:21:14.994791738Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:14 brock containerd[684]: time="2023-12-26T22:21:14.994800610Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:14 brock containerd[684]: time="2023-12-26T22:21:14.994988436Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/b5816585cc76302a84b4829dbc6a6645717a63a67bcfb1b75527ddfed0cb3a86 pid=54470 runtime=io.containerd.runc.v2
+Dec 26 22:21:15 brock systemd[1]: Started libcontainer container b5816585cc76302a84b4829dbc6a6645717a63a67bcfb1b75527ddfed0cb3a86.
+Dec 26 22:21:15 brock sshd[54507]: Accepted publickey for jack from 10.0.0.49 port 57600 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:15 brock sshd[54507]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:15 brock systemd-logind[680]: New session 45 of user jack.
+Dec 26 22:21:15 brock systemd[1]: Started Session 45 of User jack.
+Dec 26 22:21:15 brock sshd[54560]: error: connect_to localhost port 6443: failed.
+Dec 26 22:21:20 brock sshd[54586]: Accepted publickey for jack from 10.0.0.49 port 57508 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:20 brock sshd[54586]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:20 brock systemd-logind[680]: New session 46 of user jack.
+Dec 26 22:21:20 brock systemd[1]: Started Session 46 of User jack.
+Dec 26 22:21:20 brock systemd[1]: var-lib-docker-overlay2-932e7c978a816ab62ee9f91bf3ab7dec73d072fe98ecbc0fb67d2496f8700125\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:21:20 brock systemd[1]: var-lib-docker-overlay2-932e7c978a816ab62ee9f91bf3ab7dec73d072fe98ecbc0fb67d2496f8700125-merged.mount: Deactivated successfully.
+Dec 26 22:21:20 brock systemd-networkd[651]: veth60d63e8: Link UP
+Dec 26 22:21:20 brock networkd-dispatcher[674]: WARNING:Unknown index 139 seen, reloading interface list
+Dec 26 22:21:20 brock systemd-udevd[54633]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:20 brock systemd-udevd[54634]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:20 brock kernel: docker0: port 1(veth60d63e8) entered blocking state
+Dec 26 22:21:20 brock kernel: docker0: port 1(veth60d63e8) entered disabled state
+Dec 26 22:21:20 brock kernel: device veth60d63e8 entered promiscuous mode
+Dec 26 22:21:20 brock containerd[684]: time="2023-12-26T22:21:20.734074813Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:20 brock containerd[684]: time="2023-12-26T22:21:20.734341730Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:20 brock containerd[684]: time="2023-12-26T22:21:20.734369199Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:20 brock containerd[684]: time="2023-12-26T22:21:20.735340768Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/2b8e09f7f1b8a3250d1fd7c305deea1e6cf4fb3575e6799a08443f6c20ec9ea2 pid=54654 runtime=io.containerd.runc.v2
+Dec 26 22:21:20 brock systemd[1]: Started libcontainer container 2b8e09f7f1b8a3250d1fd7c305deea1e6cf4fb3575e6799a08443f6c20ec9ea2.
+Dec 26 22:21:20 brock kernel: eth0: renamed from vethe11d867
+Dec 26 22:21:20 brock systemd-networkd[651]: veth60d63e8: Gained carrier
+Dec 26 22:21:20 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth60d63e8: link becomes ready
+Dec 26 22:21:20 brock kernel: docker0: port 1(veth60d63e8) entered blocking state
+Dec 26 22:21:20 brock kernel: docker0: port 1(veth60d63e8) entered forwarding state
+Dec 26 22:21:20 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:21:20 brock systemd[1]: docker-2b8e09f7f1b8a3250d1fd7c305deea1e6cf4fb3575e6799a08443f6c20ec9ea2.scope: Deactivated successfully.
+Dec 26 22:21:20 brock dockerd[758]: time="2023-12-26T22:21:20.950054174Z" level=info msg="ignoring event" container=2b8e09f7f1b8a3250d1fd7c305deea1e6cf4fb3575e6799a08443f6c20ec9ea2 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:20 brock containerd[684]: time="2023-12-26T22:21:20.952133080Z" level=info msg="shim disconnected" id=2b8e09f7f1b8a3250d1fd7c305deea1e6cf4fb3575e6799a08443f6c20ec9ea2
+Dec 26 22:21:20 brock containerd[684]: time="2023-12-26T22:21:20.952571093Z" level=warning msg="cleaning up after shim disconnected" id=2b8e09f7f1b8a3250d1fd7c305deea1e6cf4fb3575e6799a08443f6c20ec9ea2 namespace=moby
+Dec 26 22:21:20 brock containerd[684]: time="2023-12-26T22:21:20.952643056Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:20 brock containerd[684]: time="2023-12-26T22:21:20.964112661Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:20Z\" level=info msg=\"starting signal loop\" namespace=moby pid=54708 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:20 brock systemd-networkd[651]: veth60d63e8: Lost carrier
+Dec 26 22:21:20 brock kernel: docker0: port 1(veth60d63e8) entered disabled state
+Dec 26 22:21:20 brock kernel: vethe11d867: renamed from eth0
+Dec 26 22:21:21 brock systemd-udevd[54645]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:21 brock networkd-dispatcher[674]: WARNING:Unknown index 139 seen, reloading interface list
+Dec 26 22:21:21 brock systemd-networkd[651]: veth60d63e8: Link DOWN
+Dec 26 22:21:21 brock kernel: docker0: port 1(veth60d63e8) entered disabled state
+Dec 26 22:21:21 brock kernel: device veth60d63e8 left promiscuous mode
+Dec 26 22:21:21 brock kernel: docker0: port 1(veth60d63e8) entered disabled state
+Dec 26 22:21:21 brock networkd-dispatcher[674]: ERROR:Unknown interface index 139 seen even after reload
+Dec 26 22:21:21 brock networkd-dispatcher[674]: WARNING:Unknown index 139 seen, reloading interface list
+Dec 26 22:21:21 brock networkd-dispatcher[674]: ERROR:Unknown interface index 139 seen even after reload
+Dec 26 22:21:21 brock containerd[684]: time="2023-12-26T22:21:21.197428388Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:21 brock containerd[684]: time="2023-12-26T22:21:21.197815681Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:21 brock containerd[684]: time="2023-12-26T22:21:21.197823873Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:21 brock containerd[684]: time="2023-12-26T22:21:21.198813441Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/c74e22b1e470980be86e976747cedc47631863471b0a93a756d348cde479b21d pid=54738 runtime=io.containerd.runc.v2
+Dec 26 22:21:21 brock systemd[1]: Started libcontainer container c74e22b1e470980be86e976747cedc47631863471b0a93a756d348cde479b21d.
+Dec 26 22:21:21 brock sshd[54773]: Accepted publickey for jack from 10.0.0.49 port 57516 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:21 brock sshd[54773]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:21 brock systemd-logind[680]: New session 47 of user jack.
+Dec 26 22:21:21 brock systemd[1]: Started Session 47 of User jack.
+Dec 26 22:21:21 brock sshd[54824]: error: connect_to localhost port 10257: failed.
+Dec 26 22:21:21 brock systemd[1]: var-lib-docker-overlay2-932e7c978a816ab62ee9f91bf3ab7dec73d072fe98ecbc0fb67d2496f8700125-merged.mount: Deactivated successfully.
+Dec 26 22:21:21 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:21:26 brock sshd[54849]: Accepted publickey for jack from 10.0.0.49 port 57512 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:26 brock sshd[54849]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:26 brock systemd-logind[680]: New session 48 of user jack.
+Dec 26 22:21:26 brock systemd[1]: Started Session 48 of User jack.
+Dec 26 22:21:26 brock systemd[1]: var-lib-docker-overlay2-f92551a27c858f8a640f537e68d4d5194ddfe400064156a49de0c2cb5df43f01\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:21:26 brock systemd[1]: var-lib-docker-overlay2-f92551a27c858f8a640f537e68d4d5194ddfe400064156a49de0c2cb5df43f01-merged.mount: Deactivated successfully.
+Dec 26 22:21:26 brock kernel: docker0: port 1(veth9ca6ab4) entered blocking state
+Dec 26 22:21:26 brock kernel: docker0: port 1(veth9ca6ab4) entered disabled state
+Dec 26 22:21:26 brock kernel: device veth9ca6ab4 entered promiscuous mode
+Dec 26 22:21:26 brock kernel: docker0: port 1(veth9ca6ab4) entered blocking state
+Dec 26 22:21:26 brock kernel: docker0: port 1(veth9ca6ab4) entered forwarding state
+Dec 26 22:21:26 brock kernel: docker0: port 1(veth9ca6ab4) entered disabled state
+Dec 26 22:21:26 brock systemd-udevd[54896]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:26 brock systemd-networkd[651]: veth9ca6ab4: Link UP
+Dec 26 22:21:26 brock networkd-dispatcher[674]: WARNING:Unknown index 141 seen, reloading interface list
+Dec 26 22:21:26 brock systemd-udevd[54897]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.011101753Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.011458146Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.011516632Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.013232434Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/d265643efec4a860492ca7fca7e3fcc94343fe9cdda2baccd0d99b9237287f01 pid=54923 runtime=io.containerd.runc.v2
+Dec 26 22:21:27 brock systemd[1]: Started libcontainer container d265643efec4a860492ca7fca7e3fcc94343fe9cdda2baccd0d99b9237287f01.
+Dec 26 22:21:27 brock kernel: eth0: renamed from vethcef793a
+Dec 26 22:21:27 brock systemd-networkd[651]: veth9ca6ab4: Gained carrier
+Dec 26 22:21:27 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:21:27 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth9ca6ab4: link becomes ready
+Dec 26 22:21:27 brock kernel: docker0: port 1(veth9ca6ab4) entered blocking state
+Dec 26 22:21:27 brock kernel: docker0: port 1(veth9ca6ab4) entered forwarding state
+Dec 26 22:21:27 brock systemd[1]: docker-d265643efec4a860492ca7fca7e3fcc94343fe9cdda2baccd0d99b9237287f01.scope: Deactivated successfully.
+Dec 26 22:21:27 brock dockerd[758]: time="2023-12-26T22:21:27.232884967Z" level=info msg="ignoring event" container=d265643efec4a860492ca7fca7e3fcc94343fe9cdda2baccd0d99b9237287f01 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.233478494Z" level=info msg="shim disconnected" id=d265643efec4a860492ca7fca7e3fcc94343fe9cdda2baccd0d99b9237287f01
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.233601921Z" level=warning msg="cleaning up after shim disconnected" id=d265643efec4a860492ca7fca7e3fcc94343fe9cdda2baccd0d99b9237287f01 namespace=moby
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.233612625Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.244912737Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:27Z\" level=info msg=\"starting signal loop\" namespace=moby pid=54981 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:27 brock kernel: docker0: port 1(veth9ca6ab4) entered disabled state
+Dec 26 22:21:27 brock systemd-networkd[651]: veth9ca6ab4: Lost carrier
+Dec 26 22:21:27 brock kernel: vethcef793a: renamed from eth0
+Dec 26 22:21:27 brock networkd-dispatcher[674]: WARNING:Unknown index 141 seen, reloading interface list
+Dec 26 22:21:27 brock systemd-networkd[651]: veth9ca6ab4: Link DOWN
+Dec 26 22:21:27 brock kernel: docker0: port 1(veth9ca6ab4) entered disabled state
+Dec 26 22:21:27 brock kernel: device veth9ca6ab4 left promiscuous mode
+Dec 26 22:21:27 brock kernel: docker0: port 1(veth9ca6ab4) entered disabled state
+Dec 26 22:21:27 brock networkd-dispatcher[674]: ERROR:Unknown interface index 141 seen even after reload
+Dec 26 22:21:27 brock networkd-dispatcher[674]: WARNING:Unknown index 141 seen, reloading interface list
+Dec 26 22:21:27 brock networkd-dispatcher[674]: ERROR:Unknown interface index 141 seen even after reload
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.483447172Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.484837844Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.484856785Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:27 brock containerd[684]: time="2023-12-26T22:21:27.485314793Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/697109a87c10dfad491223bfa343b6b1b4789b02a2d367079510ffdc74019e90 pid=55014 runtime=io.containerd.runc.v2
+Dec 26 22:21:27 brock systemd[1]: Started libcontainer container 697109a87c10dfad491223bfa343b6b1b4789b02a2d367079510ffdc74019e90.
+Dec 26 22:21:27 brock sshd[55052]: Accepted publickey for jack from 10.0.0.49 port 57520 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:27 brock sshd[55052]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:27 brock systemd-logind[680]: New session 49 of user jack.
+Dec 26 22:21:27 brock systemd[1]: Started Session 49 of User jack.
+Dec 26 22:21:27 brock systemd[1]: var-lib-docker-overlay2-f92551a27c858f8a640f537e68d4d5194ddfe400064156a49de0c2cb5df43f01-merged.mount: Deactivated successfully.
+Dec 26 22:21:27 brock sshd[55106]: error: connect_to localhost port 10259: failed.
+Dec 26 22:21:27 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:21:32 brock sshd[55137]: Accepted publickey for jack from 10.0.0.49 port 57534 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:32 brock sshd[55137]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:32 brock systemd-logind[680]: New session 50 of user jack.
+Dec 26 22:21:32 brock systemd[1]: Started Session 50 of User jack.
+Dec 26 22:21:33 brock systemd[1]: var-lib-docker-overlay2-4d88ae884c59d13472a3fe54a2d153619d3d4a68bd10157e57ad9d0b7d366a0b\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:21:33 brock systemd[1]: var-lib-docker-overlay2-4d88ae884c59d13472a3fe54a2d153619d3d4a68bd10157e57ad9d0b7d366a0b-merged.mount: Deactivated successfully.
+Dec 26 22:21:33 brock networkd-dispatcher[674]: WARNING:Unknown index 143 seen, reloading interface list
+Dec 26 22:21:33 brock kernel: docker0: port 1(veth870c8d1) entered blocking state
+Dec 26 22:21:33 brock kernel: docker0: port 1(veth870c8d1) entered disabled state
+Dec 26 22:21:33 brock kernel: device veth870c8d1 entered promiscuous mode
+Dec 26 22:21:33 brock systemd-networkd[651]: veth870c8d1: Link UP
+Dec 26 22:21:33 brock systemd-udevd[55191]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:33 brock systemd-udevd[55190]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:33 brock containerd[684]: time="2023-12-26T22:21:33.357205832Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:33 brock containerd[684]: time="2023-12-26T22:21:33.357328285Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:33 brock containerd[684]: time="2023-12-26T22:21:33.357337221Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:33 brock containerd[684]: time="2023-12-26T22:21:33.357749634Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/de24e7149e63c260f3e4825962c902343a399c7891ccccbd408f0385318950cb pid=55211 runtime=io.containerd.runc.v2
+Dec 26 22:21:33 brock systemd[1]: Started libcontainer container de24e7149e63c260f3e4825962c902343a399c7891ccccbd408f0385318950cb.
+Dec 26 22:21:33 brock kernel: eth0: renamed from vethf96ba3f
+Dec 26 22:21:33 brock systemd-networkd[651]: veth870c8d1: Gained carrier
+Dec 26 22:21:33 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:21:33 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth870c8d1: link becomes ready
+Dec 26 22:21:33 brock kernel: docker0: port 1(veth870c8d1) entered blocking state
+Dec 26 22:21:33 brock kernel: docker0: port 1(veth870c8d1) entered forwarding state
+Dec 26 22:21:33 brock systemd[1]: docker-de24e7149e63c260f3e4825962c902343a399c7891ccccbd408f0385318950cb.scope: Deactivated successfully.
+Dec 26 22:21:33 brock dockerd[758]: time="2023-12-26T22:21:33.602587824Z" level=info msg="ignoring event" container=de24e7149e63c260f3e4825962c902343a399c7891ccccbd408f0385318950cb module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:33 brock containerd[684]: time="2023-12-26T22:21:33.603441997Z" level=info msg="shim disconnected" id=de24e7149e63c260f3e4825962c902343a399c7891ccccbd408f0385318950cb
+Dec 26 22:21:33 brock containerd[684]: time="2023-12-26T22:21:33.603720458Z" level=warning msg="cleaning up after shim disconnected" id=de24e7149e63c260f3e4825962c902343a399c7891ccccbd408f0385318950cb namespace=moby
+Dec 26 22:21:33 brock containerd[684]: time="2023-12-26T22:21:33.603862499Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:33 brock containerd[684]: time="2023-12-26T22:21:33.622691022Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:33Z\" level=info msg=\"starting signal loop\" namespace=moby pid=55271 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:33 brock systemd-networkd[651]: veth870c8d1: Lost carrier
+Dec 26 22:21:33 brock kernel: docker0: port 1(veth870c8d1) entered disabled state
+Dec 26 22:21:33 brock kernel: vethf96ba3f: renamed from eth0
+Dec 26 22:21:33 brock networkd-dispatcher[674]: WARNING:Unknown index 143 seen, reloading interface list
+Dec 26 22:21:33 brock systemd-networkd[651]: veth870c8d1: Link DOWN
+Dec 26 22:21:33 brock kernel: docker0: port 1(veth870c8d1) entered disabled state
+Dec 26 22:21:33 brock kernel: device veth870c8d1 left promiscuous mode
+Dec 26 22:21:33 brock kernel: docker0: port 1(veth870c8d1) entered disabled state
+Dec 26 22:21:34 brock systemd[1]: var-lib-docker-overlay2-4d88ae884c59d13472a3fe54a2d153619d3d4a68bd10157e57ad9d0b7d366a0b-merged.mount: Deactivated successfully.
+Dec 26 22:21:34 brock containerd[684]: time="2023-12-26T22:21:34.025658393Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:34 brock containerd[684]: time="2023-12-26T22:21:34.026389121Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:34 brock containerd[684]: time="2023-12-26T22:21:34.026405324Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:34 brock containerd[684]: time="2023-12-26T22:21:34.027563358Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/ded7c9169c4e7e152a06646ac99f4f87a78561dfb8ebe6ad52dae7814b039bb3 pid=55299 runtime=io.containerd.runc.v2
+Dec 26 22:21:34 brock systemd[1]: run-docker-runtime\x2drunc-moby-ded7c9169c4e7e152a06646ac99f4f87a78561dfb8ebe6ad52dae7814b039bb3-runc.u09z31.mount: Deactivated successfully.
+Dec 26 22:21:34 brock systemd[1]: Started libcontainer container ded7c9169c4e7e152a06646ac99f4f87a78561dfb8ebe6ad52dae7814b039bb3.
+Dec 26 22:21:34 brock sshd[55337]: Accepted publickey for jack from 10.0.0.49 port 57538 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:34 brock sshd[55337]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:34 brock systemd[1]: Started Session 51 of User jack.
+Dec 26 22:21:34 brock systemd-logind[680]: New session 51 of user jack.
+Dec 26 22:21:34 brock sshd[55441]: error: connect_to localhost port 10248: failed.
+Dec 26 22:21:34 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:21:39 brock sshd[55762]: Accepted publickey for jack from 10.0.0.49 port 57518 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:39 brock sshd[55762]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:39 brock systemd-logind[680]: New session 52 of user jack.
+Dec 26 22:21:39 brock systemd[1]: Started Session 52 of User jack.
+Dec 26 22:21:39 brock sshd[55808]: error: connect_to localhost port 10248: failed.
+Dec 26 22:21:44 brock sshd[55830]: Accepted publickey for jack from 10.0.0.49 port 57524 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:44 brock sshd[55830]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:44 brock systemd-logind[680]: New session 53 of user jack.
+Dec 26 22:21:44 brock systemd[1]: Started Session 53 of User jack.
+Dec 26 22:21:44 brock sshd[55876]: error: connect_to localhost port 10248: failed.
+Dec 26 22:21:46 brock systemd[1]: Created slice libcontainer container kubepods-burstable-pod631b668d_c404_4a55_9340_ad1b5281ec3c.slice.
+Dec 26 22:21:46 brock systemd[1]: var-lib-kubelet-pods-6f9f14bf\x2d3348\x2d4007\x2dac18\x2d04131c950f45-volumes-kubernetes.io\x7eprojected-kube\x2dapi\x2daccess\x2drgfzc.mount: Deactivated successfully.
+Dec 26 22:21:46 brock systemd[1]: var-lib-kubelet-pods-4bfd8197\x2df418\x2d4002\x2dad6c\x2d9f69d5381a1a-volumes-kubernetes.io\x7eprojected-kube\x2dapi\x2daccess\x2dbmt6s.mount: Deactivated successfully.
+Dec 26 22:21:46 brock systemd[1]: var-lib-docker-overlay2-8fa9e511fd54dadbbac1a1533d3b2c90a2d1ec2ec27a1b6711e76259c46f9f08\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:21:46 brock containerd[684]: time="2023-12-26T22:21:46.830464999Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:46 brock containerd[684]: time="2023-12-26T22:21:46.831184806Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:46 brock containerd[684]: time="2023-12-26T22:21:46.831375134Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:46 brock containerd[684]: time="2023-12-26T22:21:46.831780843Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/666e8029305fe7cdeaf0909c21163694e03dac1f9e7fb364d746a5ad748020c0 pid=56002 runtime=io.containerd.runc.v2
+Dec 26 22:21:46 brock systemd[1]: Started libcontainer container 666e8029305fe7cdeaf0909c21163694e03dac1f9e7fb364d746a5ad748020c0.
+Dec 26 22:21:47 brock containerd[684]: time="2023-12-26T22:21:47.061166760Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:47 brock containerd[684]: time="2023-12-26T22:21:47.061273718Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:47 brock containerd[684]: time="2023-12-26T22:21:47.061282798Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:47 brock containerd[684]: time="2023-12-26T22:21:47.061463750Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/ae9f107671aa8f03145341f3ececf2eee964035dc65883fc4222332f1ce692ee pid=56044 runtime=io.containerd.runc.v2
+Dec 26 22:21:47 brock systemd[1]: Started libcontainer container ae9f107671aa8f03145341f3ececf2eee964035dc65883fc4222332f1ce692ee.
+Dec 26 22:21:47 brock systemd[1]: docker-1b398303f964ab81a2f1cdf868ecd712be09b1090d555af60eee728639273a43.scope: Deactivated successfully.
+Dec 26 22:21:47 brock systemd[1]: docker-fa5fd228ee6e7697add8540c39cc2b730b9950d5bc58ee2702d44247ebbac79b.scope: Deactivated successfully.
+Dec 26 22:21:47 brock systemd[1]: docker-eef31d798cc8fb02559600aff0950bb0aff8629ab6bd042684901e241421cef8.scope: Killing process 38663 (kube-controller) with signal SIGKILL.
+Dec 26 22:21:47 brock systemd[1]: Stopping libcontainer container eef31d798cc8fb02559600aff0950bb0aff8629ab6bd042684901e241421cef8...
+Dec 26 22:21:47 brock systemd[1]: Stopping libcontainer container 4b923006ac7c32dd93d6b9f306a5436cfa2fa371af1f2e269239d354abec19fa...
+Dec 26 22:21:47 brock systemd[1]: docker-6575d23df4e3c6f64d489a54a7763dc7c3afbd33bfb1b2d8566cc42f4148a28c.scope: Killing process 39069 (flanneld) with signal SIGKILL.
+Dec 26 22:21:47 brock systemd[1]: Stopping libcontainer container 6575d23df4e3c6f64d489a54a7763dc7c3afbd33bfb1b2d8566cc42f4148a28c...
+Dec 26 22:21:47 brock systemd[1]: docker-eef31d798cc8fb02559600aff0950bb0aff8629ab6bd042684901e241421cef8.scope: Deactivated successfully.
+Dec 26 22:21:47 brock systemd[1]: Stopped libcontainer container eef31d798cc8fb02559600aff0950bb0aff8629ab6bd042684901e241421cef8.
+Dec 26 22:21:47 brock systemd[1]: docker-eef31d798cc8fb02559600aff0950bb0aff8629ab6bd042684901e241421cef8.scope: Consumed 4.488s CPU time.
+Dec 26 22:21:47 brock systemd[1]: Removed slice libcontainer container kubepods-besteffort-pod4bfd8197_f418_4002_ad6c_9f69d5381a1a.slice.
+Dec 26 22:21:47 brock systemd[1]: kubepods-besteffort-pod4bfd8197_f418_4002_ad6c_9f69d5381a1a.slice: Consumed 4.603s CPU time.
+Dec 26 22:21:47 brock systemd[1]: docker-6575d23df4e3c6f64d489a54a7763dc7c3afbd33bfb1b2d8566cc42f4148a28c.scope: Deactivated successfully.
+Dec 26 22:21:47 brock systemd[1]: Stopped libcontainer container 6575d23df4e3c6f64d489a54a7763dc7c3afbd33bfb1b2d8566cc42f4148a28c.
+Dec 26 22:21:47 brock systemd[1]: docker-6575d23df4e3c6f64d489a54a7763dc7c3afbd33bfb1b2d8566cc42f4148a28c.scope: Consumed 6.470s CPU time.
+Dec 26 22:21:47 brock systemd[1]: docker-4b923006ac7c32dd93d6b9f306a5436cfa2fa371af1f2e269239d354abec19fa.scope: Deactivated successfully.
+Dec 26 22:21:47 brock systemd[1]: Stopped libcontainer container 4b923006ac7c32dd93d6b9f306a5436cfa2fa371af1f2e269239d354abec19fa.
+Dec 26 22:21:47 brock systemd[1]: docker-4b923006ac7c32dd93d6b9f306a5436cfa2fa371af1f2e269239d354abec19fa.scope: Consumed 36.594s CPU time.
+Dec 26 22:21:47 brock systemd[1]: Removed slice libcontainer container kubepods-burstable-pod6f9f14bf_3348_4007_ac18_04131c950f45.slice.
+Dec 26 22:21:47 brock systemd[1]: kubepods-burstable-pod6f9f14bf_3348_4007_ac18_04131c950f45.slice: Consumed 47.232s CPU time.
+Dec 26 22:21:47 brock dockerd[758]: time="2023-12-26T22:21:47.834067109Z" level=info msg="ignoring event" container=1b398303f964ab81a2f1cdf868ecd712be09b1090d555af60eee728639273a43 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:47 brock containerd[684]: time="2023-12-26T22:21:47.845044990Z" level=info msg="shim disconnected" id=1b398303f964ab81a2f1cdf868ecd712be09b1090d555af60eee728639273a43
+Dec 26 22:21:47 brock containerd[684]: time="2023-12-26T22:21:47.848573199Z" level=warning msg="cleaning up after shim disconnected" id=1b398303f964ab81a2f1cdf868ecd712be09b1090d555af60eee728639273a43 namespace=moby
+Dec 26 22:21:47 brock containerd[684]: time="2023-12-26T22:21:47.848596002Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:47 brock dockerd[758]: time="2023-12-26T22:21:47.903538038Z" level=info msg="ignoring event" container=fa5fd228ee6e7697add8540c39cc2b730b9950d5bc58ee2702d44247ebbac79b module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:47 brock containerd[684]: time="2023-12-26T22:21:47.917058831Z" level=info msg="shim disconnected" id=fa5fd228ee6e7697add8540c39cc2b730b9950d5bc58ee2702d44247ebbac79b
+Dec 26 22:21:47 brock containerd[684]: time="2023-12-26T22:21:47.917176474Z" level=warning msg="cleaning up after shim disconnected" id=fa5fd228ee6e7697add8540c39cc2b730b9950d5bc58ee2702d44247ebbac79b namespace=moby
+Dec 26 22:21:47 brock containerd[684]: time="2023-12-26T22:21:47.917191080Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:48 brock dockerd[758]: time="2023-12-26T22:21:47.999910321Z" level=info msg="ignoring event" container=4b923006ac7c32dd93d6b9f306a5436cfa2fa371af1f2e269239d354abec19fa module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.002373189Z" level=info msg="shim disconnected" id=4b923006ac7c32dd93d6b9f306a5436cfa2fa371af1f2e269239d354abec19fa
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.004605182Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:47Z\" level=info msg=\"starting signal loop\" namespace=moby pid=56115 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.009511440Z" level=warning msg="cleaning up after shim disconnected" id=4b923006ac7c32dd93d6b9f306a5436cfa2fa371af1f2e269239d354abec19fa namespace=moby
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.009583177Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:48 brock dockerd[758]: time="2023-12-26T22:21:48.089875539Z" level=info msg="ignoring event" container=6575d23df4e3c6f64d489a54a7763dc7c3afbd33bfb1b2d8566cc42f4148a28c module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.096030497Z" level=info msg="shim disconnected" id=6575d23df4e3c6f64d489a54a7763dc7c3afbd33bfb1b2d8566cc42f4148a28c
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.097017627Z" level=warning msg="cleaning up after shim disconnected" id=6575d23df4e3c6f64d489a54a7763dc7c3afbd33bfb1b2d8566cc42f4148a28c namespace=moby
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.097041292Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.099542255Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:47Z\" level=info msg=\"starting signal loop\" namespace=moby pid=56128 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:48 brock dockerd[758]: time="2023-12-26T22:21:48.117820064Z" level=info msg="ignoring event" container=eef31d798cc8fb02559600aff0950bb0aff8629ab6bd042684901e241421cef8 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:48 brock systemd[1]: var-lib-docker-containers-1b398303f964ab81a2f1cdf868ecd712be09b1090d555af60eee728639273a43-mounts-shm.mount: Deactivated successfully.
+Dec 26 22:21:48 brock systemd[1]: var-lib-docker-overlay2-e33265c34e882676110a45843e71c24067c5c1d56bbb2744742ea90062607b13-merged.mount: Deactivated successfully.
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.133711618Z" level=info msg="shim disconnected" id=eef31d798cc8fb02559600aff0950bb0aff8629ab6bd042684901e241421cef8
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.133778557Z" level=warning msg="cleaning up after shim disconnected" id=eef31d798cc8fb02559600aff0950bb0aff8629ab6bd042684901e241421cef8 namespace=moby
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.133789596Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.220139310Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:48Z\" level=info msg=\"starting signal loop\" namespace=moby pid=56152 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.246352867Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:48Z\" level=info msg=\"starting signal loop\" namespace=moby pid=56168 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:48 brock systemd[1]: run-docker-netns-cd076db65c29.mount: Deactivated successfully.
+Dec 26 22:21:48 brock containerd[684]: time="2023-12-26T22:21:48.412918027Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:48Z\" level=info msg=\"starting signal loop\" namespace=moby pid=56174 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:48 brock systemd[1]: var-lib-docker-containers-fa5fd228ee6e7697add8540c39cc2b730b9950d5bc58ee2702d44247ebbac79b-mounts-shm.mount: Deactivated successfully.
+Dec 26 22:21:48 brock systemd[1]: var-lib-docker-overlay2-4ec82dccf7e4ad0c8cef7ad31cdb2a40f87946e9c50a0a1c1c3fee1a10ed5717-merged.mount: Deactivated successfully.
+Dec 26 22:21:48 brock systemd[1]: var-lib-docker-overlay2-87d9bacbc658d317a568203d92620581882923ab33ada64ffb304b12854aa53a-merged.mount: Deactivated successfully.
+Dec 26 22:21:48 brock systemd[1]: var-lib-docker-overlay2-b10da33dc9769fcb52d9c7fb1b32ad98d70d9f75f47583d18b82b652377ef8c7-merged.mount: Deactivated successfully.
+Dec 26 22:21:48 brock systemd[1]: var-lib-docker-overlay2-cacf8931b7bb39c71165f08dfd78e375ce0639848ef21dbccb6e930e73fdf86a-merged.mount: Deactivated successfully.
+Dec 26 22:21:48 brock dockerd[758]: time="2023-12-26T22:21:48.656810879Z" level=info msg="Container failed to exit within 1s of signal 15 - using the force" container=4b923006ac7c32dd93d6b9f306a5436cfa2fa371af1f2e269239d354abec19fa
+Dec 26 22:21:50 brock sshd[56196]: Accepted publickey for jack from 10.0.0.49 port 57558 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:50 brock sshd[56196]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:50 brock systemd[1]: Started Session 54 of User jack.
+Dec 26 22:21:50 brock systemd-logind[680]: New session 54 of user jack.
+Dec 26 22:21:50 brock systemd[1]: var-lib-docker-overlay2-cbe87bfb9a68864be96f3fa5b47e588b682e082224bb01c5b2d588beee9d80ae\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:21:51 brock systemd[1]: var-lib-docker-overlay2-cbe87bfb9a68864be96f3fa5b47e588b682e082224bb01c5b2d588beee9d80ae-merged.mount: Deactivated successfully.
+Dec 26 22:21:51 brock kernel: docker0: port 1(veth89392d9) entered blocking state
+Dec 26 22:21:51 brock kernel: docker0: port 1(veth89392d9) entered disabled state
+Dec 26 22:21:51 brock kernel: device veth89392d9 entered promiscuous mode
+Dec 26 22:21:51 brock systemd-networkd[651]: veth89392d9: Link UP
+Dec 26 22:21:51 brock networkd-dispatcher[674]: WARNING:Unknown index 145 seen, reloading interface list
+Dec 26 22:21:51 brock systemd-udevd[56246]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:51 brock systemd-udevd[56248]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:52 brock containerd[684]: time="2023-12-26T22:21:52.055877546Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:52 brock containerd[684]: time="2023-12-26T22:21:52.056019096Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:52 brock containerd[684]: time="2023-12-26T22:21:52.056030442Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:52 brock containerd[684]: time="2023-12-26T22:21:52.056898370Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/be09167966655dacdb33072a7c0d13fb5539843eb33e255396f30d372465cb34 pid=56280 runtime=io.containerd.runc.v2
+Dec 26 22:21:52 brock systemd[1]: docker-ae9f107671aa8f03145341f3ececf2eee964035dc65883fc4222332f1ce692ee.scope: Deactivated successfully.
+Dec 26 22:21:52 brock systemd[1]: docker-ae9f107671aa8f03145341f3ececf2eee964035dc65883fc4222332f1ce692ee.scope: Consumed 2.648s CPU time.
+Dec 26 22:21:52 brock systemd[1]: run-docker-runtime\x2drunc-moby-be09167966655dacdb33072a7c0d13fb5539843eb33e255396f30d372465cb34-runc.ZtBn2n.mount: Deactivated successfully.
+Dec 26 22:21:52 brock systemd[1]: Started libcontainer container be09167966655dacdb33072a7c0d13fb5539843eb33e255396f30d372465cb34.
+Dec 26 22:21:52 brock dockerd[758]: time="2023-12-26T22:21:52.327473435Z" level=info msg="ignoring event" container=ae9f107671aa8f03145341f3ececf2eee964035dc65883fc4222332f1ce692ee module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:52 brock containerd[684]: time="2023-12-26T22:21:52.328454017Z" level=info msg="shim disconnected" id=ae9f107671aa8f03145341f3ececf2eee964035dc65883fc4222332f1ce692ee
+Dec 26 22:21:52 brock containerd[684]: time="2023-12-26T22:21:52.328523346Z" level=warning msg="cleaning up after shim disconnected" id=ae9f107671aa8f03145341f3ececf2eee964035dc65883fc4222332f1ce692ee namespace=moby
+Dec 26 22:21:52 brock containerd[684]: time="2023-12-26T22:21:52.328534360Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:52 brock containerd[684]: time="2023-12-26T22:21:52.392578506Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:52Z\" level=info msg=\"starting signal loop\" namespace=moby pid=56316 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:52 brock systemd[1]: var-lib-docker-overlay2-6c6ece2715441fde4ea993763c9bdc920c6a1454b6c2e7b1c26c87a0b4ec11b5-merged.mount: Deactivated successfully.
+Dec 26 22:21:52 brock kernel: eth0: renamed from veth3de1a03
+Dec 26 22:21:52 brock systemd-networkd[651]: veth89392d9: Gained carrier
+Dec 26 22:21:52 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:21:52 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth89392d9: link becomes ready
+Dec 26 22:21:52 brock kernel: docker0: port 1(veth89392d9) entered blocking state
+Dec 26 22:21:52 brock kernel: docker0: port 1(veth89392d9) entered forwarding state
+Dec 26 22:21:52 brock systemd[1]: docker-be09167966655dacdb33072a7c0d13fb5539843eb33e255396f30d372465cb34.scope: Deactivated successfully.
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.007383341Z" level=info msg="shim disconnected" id=be09167966655dacdb33072a7c0d13fb5539843eb33e255396f30d372465cb34
+Dec 26 22:21:53 brock dockerd[758]: time="2023-12-26T22:21:53.007378254Z" level=info msg="ignoring event" container=be09167966655dacdb33072a7c0d13fb5539843eb33e255396f30d372465cb34 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.007595807Z" level=warning msg="cleaning up after shim disconnected" id=be09167966655dacdb33072a7c0d13fb5539843eb33e255396f30d372465cb34 namespace=moby
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.007613604Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.080917622Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:53Z\" level=info msg=\"starting signal loop\" namespace=moby pid=56356 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:53 brock systemd-networkd[651]: veth89392d9: Lost carrier
+Dec 26 22:21:53 brock kernel: docker0: port 1(veth89392d9) entered disabled state
+Dec 26 22:21:53 brock kernel: veth3de1a03: renamed from eth0
+Dec 26 22:21:53 brock systemd-udevd[56260]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:53 brock networkd-dispatcher[674]: WARNING:Unknown index 145 seen, reloading interface list
+Dec 26 22:21:53 brock systemd-networkd[651]: veth89392d9: Link DOWN
+Dec 26 22:21:53 brock kernel: docker0: port 1(veth89392d9) entered disabled state
+Dec 26 22:21:53 brock kernel: device veth89392d9 left promiscuous mode
+Dec 26 22:21:53 brock kernel: docker0: port 1(veth89392d9) entered disabled state
+Dec 26 22:21:53 brock networkd-dispatcher[674]: ERROR:Unknown interface index 145 seen even after reload
+Dec 26 22:21:53 brock networkd-dispatcher[674]: WARNING:Unknown index 145 seen, reloading interface list
+Dec 26 22:21:53 brock networkd-dispatcher[674]: ERROR:Unknown interface index 145 seen even after reload
+Dec 26 22:21:53 brock systemd[1]: run-docker-netns-47b881ce67c7.mount: Deactivated successfully.
+Dec 26 22:21:53 brock systemd[1]: var-lib-docker-overlay2-cbe87bfb9a68864be96f3fa5b47e588b682e082224bb01c5b2d588beee9d80ae-merged.mount: Deactivated successfully.
+Dec 26 22:21:53 brock systemd[1]: var-lib-docker-overlay2-1ef0d7e73bc3f7e3ed06db19c9829c1cd1e1e81ee59214aacf4642ff50dfeb87\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.573060078Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.573250712Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.573263657Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.577388267Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/cbd307bc45d04f327c44c7a55aba9a3fb34b2e2f7892a82499a18022add75528 pid=56384 runtime=io.containerd.runc.v2
+Dec 26 22:21:53 brock systemd[1]: Started libcontainer container cbd307bc45d04f327c44c7a55aba9a3fb34b2e2f7892a82499a18022add75528.
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.686770763Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.687575211Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.687726158Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:53 brock containerd[684]: time="2023-12-26T22:21:53.688081376Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/d7bf549355907d897530bfc9dae5178fd19ccd6f7f33f6f891cab1c640478b0d pid=56424 runtime=io.containerd.runc.v2
+Dec 26 22:21:53 brock systemd[1]: Started libcontainer container d7bf549355907d897530bfc9dae5178fd19ccd6f7f33f6f891cab1c640478b0d.
+Dec 26 22:21:53 brock sshd[56472]: Accepted publickey for jack from 10.0.0.49 port 57566 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:53 brock sshd[56472]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:53 brock systemd[1]: Started Session 55 of User jack.
+Dec 26 22:21:53 brock systemd-logind[680]: New session 55 of user jack.
+Dec 26 22:21:54 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:21:54 brock sshd[56525]: error: connect_to localhost port 10256: failed.
+Dec 26 22:21:54 brock systemd[1]: docker-cbd307bc45d04f327c44c7a55aba9a3fb34b2e2f7892a82499a18022add75528.scope: Deactivated successfully.
+Dec 26 22:21:54 brock containerd[684]: time="2023-12-26T22:21:54.508446335Z" level=info msg="shim disconnected" id=cbd307bc45d04f327c44c7a55aba9a3fb34b2e2f7892a82499a18022add75528
+Dec 26 22:21:54 brock containerd[684]: time="2023-12-26T22:21:54.508546369Z" level=warning msg="cleaning up after shim disconnected" id=cbd307bc45d04f327c44c7a55aba9a3fb34b2e2f7892a82499a18022add75528 namespace=moby
+Dec 26 22:21:54 brock containerd[684]: time="2023-12-26T22:21:54.508561112Z" level=info msg="cleaning up dead shim"
+Dec 26 22:21:54 brock dockerd[758]: time="2023-12-26T22:21:54.509071759Z" level=info msg="ignoring event" container=cbd307bc45d04f327c44c7a55aba9a3fb34b2e2f7892a82499a18022add75528 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:21:54 brock containerd[684]: time="2023-12-26T22:21:54.556186665Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:21:54Z\" level=info msg=\"starting signal loop\" namespace=moby pid=56534 runtime=io.containerd.runc.v2\n"
+Dec 26 22:21:54 brock systemd[1]: var-lib-docker-overlay2-1ef0d7e73bc3f7e3ed06db19c9829c1cd1e1e81ee59214aacf4642ff50dfeb87-merged.mount: Deactivated successfully.
+Dec 26 22:21:55 brock systemd[1]: var-lib-docker-overlay2-57e095ea3bfc956387601c76fd8ca40d9033f5c86dbf366e18bf63e92083df98\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:21:55 brock systemd[1]: var-lib-docker-overlay2-57e095ea3bfc956387601c76fd8ca40d9033f5c86dbf366e18bf63e92083df98-merged.mount: Deactivated successfully.
+Dec 26 22:21:55 brock containerd[684]: time="2023-12-26T22:21:55.361642753Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:55 brock containerd[684]: time="2023-12-26T22:21:55.361889558Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:55 brock containerd[684]: time="2023-12-26T22:21:55.361901976Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:55 brock containerd[684]: time="2023-12-26T22:21:55.362467936Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/b9c710dc821ce2fb05dd3ef782dbda58d8969af2e38fe2dc50064905781648d1 pid=56653 runtime=io.containerd.runc.v2
+Dec 26 22:21:55 brock systemd[1]: Started libcontainer container b9c710dc821ce2fb05dd3ef782dbda58d8969af2e38fe2dc50064905781648d1.
+Dec 26 22:21:55 brock containerd[684]: time="2023-12-26T22:21:55.742664767Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:21:55 brock containerd[684]: time="2023-12-26T22:21:55.742791157Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:21:55 brock containerd[684]: time="2023-12-26T22:21:55.742820230Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:21:55 brock containerd[684]: time="2023-12-26T22:21:55.745279835Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/ea3c436167efe9b6fd5e203f40f787b89ae54cc37cb74a1bf1f43a51887283d2 pid=56736 runtime=io.containerd.runc.v2
+Dec 26 22:21:55 brock systemd[1]: Started libcontainer container ea3c436167efe9b6fd5e203f40f787b89ae54cc37cb74a1bf1f43a51887283d2.
+Dec 26 22:21:57 brock networkd-dispatcher[674]: WARNING:Unknown index 147 seen, reloading interface list
+Dec 26 22:21:57 brock systemd-udevd[56974]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:57 brock systemd-udevd[56973]: Using default interface naming scheme 'v249'.
+Dec 26 22:21:59 brock sshd[57033]: Accepted publickey for jack from 10.0.0.49 port 57574 ssh2: RSA SHA256:/g2WaJ1LbbZUGJtF0Ku810vlCsWoSBXwX8KrjymD2Bc
+Dec 26 22:21:59 brock sshd[57033]: pam_unix(sshd:session): session opened for user jack(uid=1000) by (uid=0)
+Dec 26 22:21:59 brock systemd-logind[680]: New session 56 of user jack.
+Dec 26 22:21:59 brock systemd[1]: Started Session 56 of User jack.
+Dec 26 22:21:59 brock systemd[1]: var-lib-docker-overlay2-cc137dd417990535f9d2cb69587bfa98ac271c3703cc46cbb235eddb7f737d0d\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:22:00 brock systemd[1]: var-lib-docker-overlay2-cc137dd417990535f9d2cb69587bfa98ac271c3703cc46cbb235eddb7f737d0d-merged.mount: Deactivated successfully.
+Dec 26 22:22:00 brock systemd-udevd[56994]: Using default interface naming scheme 'v249'.
+Dec 26 22:22:00 brock networkd-dispatcher[674]: WARNING:Unknown index 149 seen, reloading interface list
+Dec 26 22:22:00 brock systemd-udevd[56992]: Using default interface naming scheme 'v249'.
+Dec 26 22:22:00 brock systemd-networkd[651]: veth4bd2cca: Link UP
+Dec 26 22:22:00 brock kernel: docker0: port 1(veth4bd2cca) entered blocking state
+Dec 26 22:22:00 brock kernel: docker0: port 1(veth4bd2cca) entered disabled state
+Dec 26 22:22:00 brock kernel: device veth4bd2cca entered promiscuous mode
+Dec 26 22:22:00 brock containerd[684]: time="2023-12-26T22:22:00.955515951Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:22:00 brock containerd[684]: time="2023-12-26T22:22:00.955725166Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:22:00 brock containerd[684]: time="2023-12-26T22:22:00.955734029Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:22:00 brock containerd[684]: time="2023-12-26T22:22:00.956491927Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/f5a59c054ac5689b66bf83c482afe5a0b4ccd7261592233ece2b666bf05e0a50 pid=57118 runtime=io.containerd.runc.v2
+Dec 26 22:22:00 brock systemd[1]: run-docker-runtime\x2drunc-moby-f5a59c054ac5689b66bf83c482afe5a0b4ccd7261592233ece2b666bf05e0a50-runc.XXrAga.mount: Deactivated successfully.
+Dec 26 22:22:00 brock systemd[1]: Started libcontainer container f5a59c054ac5689b66bf83c482afe5a0b4ccd7261592233ece2b666bf05e0a50.
+Dec 26 22:22:01 brock kernel: eth0: renamed from vethc15d3c8
+Dec 26 22:22:01 brock systemd-networkd[651]: veth4bd2cca: Gained carrier
+Dec 26 22:22:01 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:22:01 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth4bd2cca: link becomes ready
+Dec 26 22:22:01 brock kernel: docker0: port 1(veth4bd2cca) entered blocking state
+Dec 26 22:22:01 brock kernel: docker0: port 1(veth4bd2cca) entered forwarding state
+Dec 26 22:22:01 brock systemd[1]: docker-f5a59c054ac5689b66bf83c482afe5a0b4ccd7261592233ece2b666bf05e0a50.scope: Deactivated successfully.
+Dec 26 22:22:01 brock dockerd[758]: time="2023-12-26T22:22:01.271254767Z" level=info msg="ignoring event" container=f5a59c054ac5689b66bf83c482afe5a0b4ccd7261592233ece2b666bf05e0a50 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:22:01 brock containerd[684]: time="2023-12-26T22:22:01.271448594Z" level=info msg="shim disconnected" id=f5a59c054ac5689b66bf83c482afe5a0b4ccd7261592233ece2b666bf05e0a50
+Dec 26 22:22:01 brock containerd[684]: time="2023-12-26T22:22:01.271548034Z" level=warning msg="cleaning up after shim disconnected" id=f5a59c054ac5689b66bf83c482afe5a0b4ccd7261592233ece2b666bf05e0a50 namespace=moby
+Dec 26 22:22:01 brock containerd[684]: time="2023-12-26T22:22:01.271555318Z" level=info msg="cleaning up dead shim"
+Dec 26 22:22:01 brock containerd[684]: time="2023-12-26T22:22:01.283248409Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:22:01Z\" level=info msg=\"starting signal loop\" namespace=moby pid=57177 runtime=io.containerd.runc.v2\n"
+Dec 26 22:22:01 brock systemd-networkd[651]: veth4bd2cca: Lost carrier
+Dec 26 22:22:01 brock kernel: docker0: port 1(veth4bd2cca) entered disabled state
+Dec 26 22:22:01 brock kernel: vethc15d3c8: renamed from eth0
+Dec 26 22:22:01 brock networkd-dispatcher[674]: WARNING:Unknown index 149 seen, reloading interface list
+Dec 26 22:22:01 brock systemd-networkd[651]: veth4bd2cca: Link DOWN
+Dec 26 22:22:01 brock kernel: docker0: port 1(veth4bd2cca) entered disabled state
+Dec 26 22:22:01 brock kernel: device veth4bd2cca left promiscuous mode
+Dec 26 22:22:01 brock kernel: docker0: port 1(veth4bd2cca) entered disabled state
+Dec 26 22:22:01 brock networkd-dispatcher[674]: ERROR:Unknown interface index 149 seen even after reload
+Dec 26 22:22:01 brock networkd-dispatcher[674]: WARNING:Unknown index 149 seen, reloading interface list
+Dec 26 22:22:01 brock networkd-dispatcher[674]: ERROR:Unknown interface index 149 seen even after reload
+Dec 26 22:22:01 brock systemd[1]: run-docker-netns-f2fbc4a506ea.mount: Deactivated successfully.
+Dec 26 22:22:01 brock systemd[1]: var-lib-docker-overlay2-cc137dd417990535f9d2cb69587bfa98ac271c3703cc46cbb235eddb7f737d0d-merged.mount: Deactivated successfully.
+Dec 26 22:22:01 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:22:02 brock networkd-dispatcher[674]: WARNING:Unknown index 151 seen, reloading interface list
+Dec 26 22:22:02 brock kernel: docker0: port 1(veth6617157) entered blocking state
+Dec 26 22:22:02 brock kernel: docker0: port 1(veth6617157) entered disabled state
+Dec 26 22:22:02 brock kernel: device veth6617157 entered promiscuous mode
+Dec 26 22:22:02 brock kernel: docker0: port 1(veth6617157) entered blocking state
+Dec 26 22:22:02 brock kernel: docker0: port 1(veth6617157) entered forwarding state
+Dec 26 22:22:02 brock kernel: docker0: port 1(veth6617157) entered disabled state
+Dec 26 22:22:02 brock systemd-networkd[651]: veth6617157: Link UP
+Dec 26 22:22:02 brock containerd[684]: time="2023-12-26T22:22:02.175899245Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:22:02 brock containerd[684]: time="2023-12-26T22:22:02.176020947Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:22:02 brock containerd[684]: time="2023-12-26T22:22:02.176033773Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:22:02 brock containerd[684]: time="2023-12-26T22:22:02.176424402Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/dce2e69e4b4a49e43cb1c046207c57a77997df1cbb7b9cf337bf5cbdccb2b7e8 pid=57216 runtime=io.containerd.runc.v2
+Dec 26 22:22:02 brock systemd[1]: Started libcontainer container dce2e69e4b4a49e43cb1c046207c57a77997df1cbb7b9cf337bf5cbdccb2b7e8.
+Dec 26 22:22:02 brock kernel: eth0: renamed from vethe02a9fe
+Dec 26 22:22:02 brock systemd-networkd[651]: veth6617157: Gained carrier
+Dec 26 22:22:02 brock systemd-networkd[651]: docker0: Gained carrier
+Dec 26 22:22:02 brock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth6617157: link becomes ready
+Dec 26 22:22:02 brock kernel: docker0: port 1(veth6617157) entered blocking state
+Dec 26 22:22:02 brock kernel: docker0: port 1(veth6617157) entered forwarding state
+Dec 26 22:22:02 brock systemd[1]: docker-dce2e69e4b4a49e43cb1c046207c57a77997df1cbb7b9cf337bf5cbdccb2b7e8.scope: Deactivated successfully.
+Dec 26 22:22:02 brock containerd[684]: time="2023-12-26T22:22:02.452433838Z" level=info msg="shim disconnected" id=dce2e69e4b4a49e43cb1c046207c57a77997df1cbb7b9cf337bf5cbdccb2b7e8
+Dec 26 22:22:02 brock containerd[684]: time="2023-12-26T22:22:02.452779332Z" level=warning msg="cleaning up after shim disconnected" id=dce2e69e4b4a49e43cb1c046207c57a77997df1cbb7b9cf337bf5cbdccb2b7e8 namespace=moby
+Dec 26 22:22:02 brock containerd[684]: time="2023-12-26T22:22:02.452792889Z" level=info msg="cleaning up dead shim"
+Dec 26 22:22:02 brock dockerd[758]: time="2023-12-26T22:22:02.452483225Z" level=info msg="ignoring event" container=dce2e69e4b4a49e43cb1c046207c57a77997df1cbb7b9cf337bf5cbdccb2b7e8 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:22:02 brock containerd[684]: time="2023-12-26T22:22:02.466553781Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:22:02Z\" level=info msg=\"starting signal loop\" namespace=moby pid=57288 runtime=io.containerd.runc.v2\n"
+Dec 26 22:22:02 brock systemd-networkd[651]: veth6617157: Lost carrier
+Dec 26 22:22:02 brock kernel: docker0: port 1(veth6617157) entered disabled state
+Dec 26 22:22:02 brock kernel: vethe02a9fe: renamed from eth0
+Dec 26 22:22:02 brock networkd-dispatcher[674]: WARNING:Unknown index 151 seen, reloading interface list
+Dec 26 22:22:02 brock systemd-networkd[651]: veth6617157: Link DOWN
+Dec 26 22:22:02 brock kernel: docker0: port 1(veth6617157) entered disabled state
+Dec 26 22:22:02 brock kernel: device veth6617157 left promiscuous mode
+Dec 26 22:22:02 brock kernel: docker0: port 1(veth6617157) entered disabled state
+Dec 26 22:22:02 brock networkd-dispatcher[674]: ERROR:Unknown interface index 151 seen even after reload
+Dec 26 22:22:02 brock networkd-dispatcher[674]: WARNING:Unknown index 151 seen, reloading interface list
+Dec 26 22:22:02 brock networkd-dispatcher[674]: ERROR:Unknown interface index 151 seen even after reload
+Dec 26 22:22:02 brock systemd[1]: run-docker-netns-0528509ab565.mount: Deactivated successfully.
+Dec 26 22:22:02 brock systemd[1]: var-lib-docker-overlay2-141f19d64236c1c19afadd487091f55c3ca88df2bc97d83c56e5b693d34f64d5-merged.mount: Deactivated successfully.
+Dec 26 22:22:02 brock systemd-networkd[651]: docker0: Lost carrier
+Dec 26 22:22:04 brock systemd[1]: Created slice libcontainer container kubepods-besteffort-podc6b9d1f0_5070_4ca5_9bc4_e6d65e223c39.slice.
+Dec 26 22:22:05 brock systemd[1]: var-lib-docker-overlay2-3528ddd832df6abc52c9ebc858c0772e05ea90f89e79f3928a3a0896bda8db14\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:22:05 brock systemd[1]: docker-b9c710dc821ce2fb05dd3ef782dbda58d8969af2e38fe2dc50064905781648d1.scope: Deactivated successfully.
+Dec 26 22:22:05 brock systemd[1]: docker-b9c710dc821ce2fb05dd3ef782dbda58d8969af2e38fe2dc50064905781648d1.scope: Consumed 2.391s CPU time.
+Dec 26 22:22:05 brock containerd[684]: time="2023-12-26T22:22:05.504860780Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:22:05 brock containerd[684]: time="2023-12-26T22:22:05.505013542Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:22:05 brock containerd[684]: time="2023-12-26T22:22:05.505024987Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:22:05 brock containerd[684]: time="2023-12-26T22:22:05.506087793Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/987642e9bd5804bcdebfae06b7ff1a633cf63af77ecca107772e5290892ff9fb pid=57367 runtime=io.containerd.runc.v2
+Dec 26 22:22:05 brock systemd[1]: Started libcontainer container 987642e9bd5804bcdebfae06b7ff1a633cf63af77ecca107772e5290892ff9fb.
+Dec 26 22:22:05 brock systemd[1]: Created slice libcontainer container kubepods-burstable-pod4cdf3a4e_d856_4c67_b7d4_ac3e71d20e7e.slice.
+Dec 26 22:22:05 brock sshd[55337]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock sshd[54773]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd[1]: session-54.scope: Deactivated successfully.
+Dec 26 22:22:05 brock sshd[54586]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd[1]: session-51.scope: Deactivated successfully.
+Dec 26 22:22:05 brock sshd[56196]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd[1]: session-46.scope: Deactivated successfully.
+Dec 26 22:22:05 brock sshd[54391]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd-logind[680]: Session 54 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock sshd[55762]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd-logind[680]: Session 46 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock sshd[54507]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd-logind[680]: Session 51 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock sshd[55137]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd[1]: session-44.scope: Deactivated successfully.
+Dec 26 22:22:05 brock sshd[54849]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd[1]: session-50.scope: Deactivated successfully.
+Dec 26 22:22:05 brock sshd[55830]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd-logind[680]: Session 44 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock sshd[56472]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd-logind[680]: Session 50 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock sshd[51954]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd[1]: session-47.scope: Deactivated successfully.
+Dec 26 22:22:05 brock sshd[55052]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd-logind[680]: Session 47 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock sshd[57033]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd[1]: session-48.scope: Deactivated successfully.
+Dec 26 22:22:05 brock sshd[52758]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd[1]: session-42.scope: Deactivated successfully.
+Dec 26 22:22:05 brock sshd[51835]: pam_unix(sshd:session): session closed for user jack
+Dec 26 22:22:05 brock systemd[1]: session-49.scope: Deactivated successfully.
+Dec 26 22:22:05 brock systemd[1]: session-52.scope: Deactivated successfully.
+Dec 26 22:22:05 brock systemd[1]: session-56.scope: Deactivated successfully.
+Dec 26 22:22:05 brock systemd-logind[680]: Session 48 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock systemd-logind[680]: Session 42 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock systemd-logind[680]: Session 49 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock systemd-logind[680]: Session 52 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock systemd-logind[680]: Session 56 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock systemd[1]: session-45.scope: Deactivated successfully.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 54.
+Dec 26 22:22:05 brock systemd-logind[680]: Session 45 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock systemd[1]: session-55.scope: Deactivated successfully.
+Dec 26 22:22:05 brock systemd-logind[680]: Session 55 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock systemd[1]: session-43.scope: Deactivated successfully.
+Dec 26 22:22:05 brock systemd[1]: session-53.scope: Deactivated successfully.
+Dec 26 22:22:05 brock systemd-logind[680]: Session 43 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock dockerd[758]: time="2023-12-26T22:22:05.860436930Z" level=info msg="ignoring event" container=b9c710dc821ce2fb05dd3ef782dbda58d8969af2e38fe2dc50064905781648d1 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:22:05 brock containerd[684]: time="2023-12-26T22:22:05.865694477Z" level=info msg="shim disconnected" id=b9c710dc821ce2fb05dd3ef782dbda58d8969af2e38fe2dc50064905781648d1
+Dec 26 22:22:05 brock containerd[684]: time="2023-12-26T22:22:05.865946642Z" level=warning msg="cleaning up after shim disconnected" id=b9c710dc821ce2fb05dd3ef782dbda58d8969af2e38fe2dc50064905781648d1 namespace=moby
+Dec 26 22:22:05 brock containerd[684]: time="2023-12-26T22:22:05.865985814Z" level=info msg="cleaning up dead shim"
+Dec 26 22:22:05 brock systemd-logind[680]: Session 53 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 51.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 46.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 44.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 50.
+Dec 26 22:22:05 brock systemd[1]: session-41.scope: Deactivated successfully.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 47.
+Dec 26 22:22:05 brock systemd-logind[680]: Session 41 logged out. Waiting for processes to exit.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 48.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 42.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 49.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 52.
+Dec 26 22:22:05 brock containerd[684]: time="2023-12-26T22:22:05.948963427Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:22:05Z\" level=info msg=\"starting signal loop\" namespace=moby pid=57422 runtime=io.containerd.runc.v2\n"
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 56.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 45.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 55.
+Dec 26 22:22:05 brock systemd-logind[680]: Removed session 43.
+Dec 26 22:22:06 brock systemd-logind[680]: Removed session 53.
+Dec 26 22:22:06 brock systemd-logind[680]: Removed session 41.
+Dec 26 22:22:06 brock systemd[1]: var-lib-docker-overlay2-57e095ea3bfc956387601c76fd8ca40d9033f5c86dbf366e18bf63e92083df98-merged.mount: Deactivated successfully.
+Dec 26 22:22:06 brock systemd[1]: var-lib-docker-overlay2-2e21b462c55bf1e9dc7e3afd5d802728622a319288c5ce85fc552904b8558538\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:22:06 brock systemd[1]: var-lib-docker-overlay2-2e21b462c55bf1e9dc7e3afd5d802728622a319288c5ce85fc552904b8558538-merged.mount: Deactivated successfully.
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.379999826Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.380239724Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.380260236Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.380688153Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/c31ab0075eef088fb3d3bbf1878e74237167267fadb5d83e58f908afcfd426a8 pid=57465 runtime=io.containerd.runc.v2
+Dec 26 22:22:06 brock systemd[1]: Started libcontainer container c31ab0075eef088fb3d3bbf1878e74237167267fadb5d83e58f908afcfd426a8.
+Dec 26 22:22:06 brock networkd-dispatcher[674]: WARNING:Unknown index 153 seen, reloading interface list
+Dec 26 22:22:06 brock systemd-networkd[651]: califa6e46e6e97: Link UP
+Dec 26 22:22:06 brock systemd-networkd[651]: califa6e46e6e97: Gained carrier
+Dec 26 22:22:06 brock systemd-udevd[57504]: Using default interface naming scheme 'v249'.
+Dec 26 22:22:06 brock dockerd[758]: time="2023-12-26T22:22:06.588129994Z" level=info msg="Container failed to exit within 1s of signal 15 - using the force" container=ea3c436167efe9b6fd5e203f40f787b89ae54cc37cb74a1bf1f43a51887283d2
+Dec 26 22:22:06 brock systemd[1]: docker-ea3c436167efe9b6fd5e203f40f787b89ae54cc37cb74a1bf1f43a51887283d2.scope: Deactivated successfully.
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.756944472Z" level=info msg="shim disconnected" id=ea3c436167efe9b6fd5e203f40f787b89ae54cc37cb74a1bf1f43a51887283d2
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.757050521Z" level=warning msg="cleaning up after shim disconnected" id=ea3c436167efe9b6fd5e203f40f787b89ae54cc37cb74a1bf1f43a51887283d2 namespace=moby
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.757064745Z" level=info msg="cleaning up dead shim"
+Dec 26 22:22:06 brock dockerd[758]: time="2023-12-26T22:22:06.759267365Z" level=info msg="ignoring event" container=ea3c436167efe9b6fd5e203f40f787b89ae54cc37cb74a1bf1f43a51887283d2 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.803020135Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.803106945Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.803116101Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.803557847Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/98369660dcf06ca3d1781a8724e65e210579040d9027e382cf37d023e407c9a0 pid=57557 runtime=io.containerd.runc.v2
+Dec 26 22:22:06 brock containerd[684]: time="2023-12-26T22:22:06.816746647Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:22:06Z\" level=info msg=\"starting signal loop\" namespace=moby pid=57537 runtime=io.containerd.runc.v2\n"
+Dec 26 22:22:06 brock systemd[1]: Started libcontainer container 98369660dcf06ca3d1781a8724e65e210579040d9027e382cf37d023e407c9a0.
+Dec 26 22:22:06 brock systemd[1]: docker-666e8029305fe7cdeaf0909c21163694e03dac1f9e7fb364d746a5ad748020c0.scope: Deactivated successfully.
+Dec 26 22:22:07 brock containerd[684]: time="2023-12-26T22:22:07.000942189Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:22:07 brock containerd[684]: time="2023-12-26T22:22:07.002461996Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:22:07 brock containerd[684]: time="2023-12-26T22:22:07.003087558Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:22:07 brock containerd[684]: time="2023-12-26T22:22:07.005538170Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20 pid=57599 runtime=io.containerd.runc.v2
+Dec 26 22:22:07 brock systemd[1]: Started libcontainer container 524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20.
+Dec 26 22:22:07 brock dockerd[758]: time="2023-12-26T22:22:07.143187988Z" level=info msg="ignoring event" container=666e8029305fe7cdeaf0909c21163694e03dac1f9e7fb364d746a5ad748020c0 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:22:07 brock containerd[684]: time="2023-12-26T22:22:07.149893135Z" level=info msg="shim disconnected" id=666e8029305fe7cdeaf0909c21163694e03dac1f9e7fb364d746a5ad748020c0
+Dec 26 22:22:07 brock containerd[684]: time="2023-12-26T22:22:07.150148123Z" level=warning msg="cleaning up after shim disconnected" id=666e8029305fe7cdeaf0909c21163694e03dac1f9e7fb364d746a5ad748020c0 namespace=moby
+Dec 26 22:22:07 brock containerd[684]: time="2023-12-26T22:22:07.150166124Z" level=info msg="cleaning up dead shim"
+Dec 26 22:22:07 brock systemd[1]: var-lib-docker-overlay2-b9b532f65cafd8d3852a3e0e142444ed351d02851eb199c42d24ca8312ed4b04-merged.mount: Deactivated successfully.
+Dec 26 22:22:07 brock containerd[684]: time="2023-12-26T22:22:07.211985494Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:22:07Z\" level=info msg=\"starting signal loop\" namespace=moby pid=57642 runtime=io.containerd.runc.v2\n"
+Dec 26 22:22:07 brock systemd[1]: var-lib-docker-containers-666e8029305fe7cdeaf0909c21163694e03dac1f9e7fb364d746a5ad748020c0-mounts-shm.mount: Deactivated successfully.
+Dec 26 22:22:07 brock systemd[1]: var-lib-docker-overlay2-8fa9e511fd54dadbbac1a1533d3b2c90a2d1ec2ec27a1b6711e76259c46f9f08-merged.mount: Deactivated successfully.
+Dec 26 22:22:07 brock systemd[1]: var-lib-kubelet-pods-631b668d\x2dc404\x2d4a55\x2d9340\x2dad1b5281ec3c-volumes-kubernetes.io\x7eprojected-kube\x2dapi\x2daccess\x2dwsj5m.mount: Deactivated successfully.
+Dec 26 22:22:08 brock systemd-networkd[651]: califa6e46e6e97: Gained IPv6LL
+Dec 26 22:22:09 brock systemd[1]: Removed slice libcontainer container kubepods-burstable-pod631b668d_c404_4a55_9340_ad1b5281ec3c.slice.
+Dec 26 22:22:09 brock systemd[1]: kubepods-burstable-pod631b668d_c404_4a55_9340_ad1b5281ec3c.slice: Consumed 6.205s CPU time.
+Dec 26 22:22:10 brock systemd[1]: docker-98369660dcf06ca3d1781a8724e65e210579040d9027e382cf37d023e407c9a0.scope: Deactivated successfully.
+Dec 26 22:22:10 brock systemd[1]: docker-98369660dcf06ca3d1781a8724e65e210579040d9027e382cf37d023e407c9a0.scope: Consumed 2.667s CPU time.
+Dec 26 22:22:10 brock dockerd[758]: time="2023-12-26T22:22:10.820199738Z" level=info msg="ignoring event" container=98369660dcf06ca3d1781a8724e65e210579040d9027e382cf37d023e407c9a0 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:22:10 brock containerd[684]: time="2023-12-26T22:22:10.820813947Z" level=info msg="shim disconnected" id=98369660dcf06ca3d1781a8724e65e210579040d9027e382cf37d023e407c9a0
+Dec 26 22:22:10 brock containerd[684]: time="2023-12-26T22:22:10.820965942Z" level=warning msg="cleaning up after shim disconnected" id=98369660dcf06ca3d1781a8724e65e210579040d9027e382cf37d023e407c9a0 namespace=moby
+Dec 26 22:22:10 brock containerd[684]: time="2023-12-26T22:22:10.820981889Z" level=info msg="cleaning up dead shim"
+Dec 26 22:22:10 brock containerd[684]: time="2023-12-26T22:22:10.833433761Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:22:10Z\" level=info msg=\"starting signal loop\" namespace=moby pid=57779 runtime=io.containerd.runc.v2\n"
+Dec 26 22:22:10 brock systemd[1]: var-lib-docker-overlay2-c6edde5e40ba1f0078a6473403756ec475ac8be054814ce653e5d47c47c085fc-merged.mount: Deactivated successfully.
+Dec 26 22:22:11 brock systemd[1]: var-lib-docker-overlay2-6981b87a48dce5067c2517479bcd686026a5a1530cc86a99343db18e0e48be97\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:22:11 brock containerd[684]: time="2023-12-26T22:22:11.287189388Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:22:11 brock containerd[684]: time="2023-12-26T22:22:11.287355491Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:22:11 brock containerd[684]: time="2023-12-26T22:22:11.287368078Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:22:11 brock containerd[684]: time="2023-12-26T22:22:11.287985214Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/0f6153724cb307e73c4660f8c267700f341b6ebeffa4fa37d240993532fdb3ad pid=57801 runtime=io.containerd.runc.v2
+Dec 26 22:22:11 brock systemd[1]: Started libcontainer container 0f6153724cb307e73c4660f8c267700f341b6ebeffa4fa37d240993532fdb3ad.
+Dec 26 22:22:11 brock systemd[1]: docker-0f6153724cb307e73c4660f8c267700f341b6ebeffa4fa37d240993532fdb3ad.scope: Deactivated successfully.
+Dec 26 22:22:11 brock dockerd[758]: time="2023-12-26T22:22:11.676704997Z" level=info msg="ignoring event" container=0f6153724cb307e73c4660f8c267700f341b6ebeffa4fa37d240993532fdb3ad module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Dec 26 22:22:11 brock containerd[684]: time="2023-12-26T22:22:11.678390127Z" level=info msg="shim disconnected" id=0f6153724cb307e73c4660f8c267700f341b6ebeffa4fa37d240993532fdb3ad
+Dec 26 22:22:11 brock containerd[684]: time="2023-12-26T22:22:11.678505537Z" level=warning msg="cleaning up after shim disconnected" id=0f6153724cb307e73c4660f8c267700f341b6ebeffa4fa37d240993532fdb3ad namespace=moby
+Dec 26 22:22:11 brock containerd[684]: time="2023-12-26T22:22:11.678522105Z" level=info msg="cleaning up dead shim"
+Dec 26 22:22:11 brock containerd[684]: time="2023-12-26T22:22:11.704477453Z" level=warning msg="cleanup warnings time=\"2023-12-26T22:22:11Z\" level=info msg=\"starting signal loop\" namespace=moby pid=57849 runtime=io.containerd.runc.v2\n"
+Dec 26 22:22:11 brock systemd[1]: var-lib-docker-overlay2-6981b87a48dce5067c2517479bcd686026a5a1530cc86a99343db18e0e48be97-merged.mount: Deactivated successfully.
+Dec 26 22:22:12 brock systemd[1]: var-lib-docker-overlay2-73dd47f5f78097686f6904542dc35c73f0ce6ebd9f7667cfba5d3b93f6d0c7d0\x2dinit-merged.mount: Deactivated successfully.
+Dec 26 22:22:12 brock containerd[684]: time="2023-12-26T22:22:12.299535859Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:22:12 brock containerd[684]: time="2023-12-26T22:22:12.299644636Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:22:12 brock containerd[684]: time="2023-12-26T22:22:12.299654305Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:22:12 brock containerd[684]: time="2023-12-26T22:22:12.299990145Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/6b49e62ba0b6c116ac4c77cdcaf5bcbf80b635b727661adc080190ff7cd939d2 pid=57870 runtime=io.containerd.runc.v2
+Dec 26 22:22:12 brock systemd[1]: Started libcontainer container 6b49e62ba0b6c116ac4c77cdcaf5bcbf80b635b727661adc080190ff7cd939d2.
+Dec 26 22:22:12 brock containerd[684]: time="2023-12-26T22:22:12.469641312Z" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Dec 26 22:22:12 brock containerd[684]: time="2023-12-26T22:22:12.470043341Z" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Dec 26 22:22:12 brock containerd[684]: time="2023-12-26T22:22:12.470415936Z" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Dec 26 22:22:12 brock containerd[684]: time="2023-12-26T22:22:12.471917927Z" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/f9b3776ef30a5606a7ce8a14a11451a23722105b0f6a5a1975fc63af52059add pid=57921 runtime=io.containerd.runc.v2
+Dec 26 22:22:12 brock systemd[1]: Started libcontainer container f9b3776ef30a5606a7ce8a14a11451a23722105b0f6a5a1975fc63af52059add.
+Dec 26 22:22:14 brock systemd-udevd[58141]: Using default interface naming scheme 'v249'.
+Dec 26 22:22:14 brock networkd-dispatcher[674]: WARNING:Unknown index 154 seen, reloading interface list
+Dec 26 22:22:14 brock systemd-udevd[58140]: Using default interface naming scheme 'v249'.
+Dec 26 22:22:22 brock systemd-networkd[651]: cali529e95680c5: Link DOWN
+Dec 26 22:22:22 brock systemd-networkd[651]: cali529e95680c5: Lost carrier
+Dec 26 22:22:25 brock systemd[1]: run-docker-runtime\x2drunc-moby-524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20-runc.W91a7t.mount: Deactivated successfully.
+Dec 26 22:22:25 brock systemd[1]: run-docker-runtime\x2drunc-moby-524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20-runc.VhfNVe.mount: Deactivated successfully.
+Dec 26 22:22:35 brock systemd[1]: run-docker-runtime\x2drunc-moby-524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20-runc.SRH8X2.mount: Deactivated successfully.
+Dec 26 22:22:35 brock systemd[1]: run-docker-runtime\x2drunc-moby-524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20-runc.IMnzon.mount: Deactivated successfully.
+Dec 26 22:22:36 brock systemd[1]: run-docker-runtime\x2drunc-moby-6b49e62ba0b6c116ac4c77cdcaf5bcbf80b635b727661adc080190ff7cd939d2-runc.RR3uNX.mount: Deactivated successfully.
+Dec 26 22:22:46 brock systemd[1]: run-docker-runtime\x2drunc-moby-6b49e62ba0b6c116ac4c77cdcaf5bcbf80b635b727661adc080190ff7cd939d2-runc.JPnJ8Z.mount: Deactivated successfully.
+Dec 26 22:22:55 brock systemd[1]: run-docker-runtime\x2drunc-moby-524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20-runc.9eIdaq.mount: Deactivated successfully.
+Dec 26 22:22:55 brock systemd[1]: run-docker-runtime\x2drunc-moby-524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20-runc.oUgT1m.mount: Deactivated successfully.
+Dec 26 22:22:56 brock systemd[1]: run-docker-runtime\x2drunc-moby-6b49e62ba0b6c116ac4c77cdcaf5bcbf80b635b727661adc080190ff7cd939d2-runc.DPWxKy.mount: Deactivated successfully.
+Dec 26 22:23:15 brock systemd[1]: run-docker-runtime\x2drunc-moby-524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20-runc.qvZ7LQ.mount: Deactivated successfully.
+Dec 26 22:23:25 brock systemd[1]: run-docker-runtime\x2drunc-moby-524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20-runc.OkXO79.mount: Deactivated successfully.
+Dec 26 22:23:25 brock systemd[1]: run-docker-runtime\x2drunc-moby-524a21045757578930f6419f0cc125a55c2821d9dc80e24cd0a7bf9f67459b20-runc.nhGgWa.mount: Deactivated successfully.
+Dec 26 22:23:26 brock systemd[1]: run-docker-runtime\x2drunc-moby-6b49e62ba0b6c116ac4c77cdcaf5bcbf80b635b727661adc080190ff7cd939d2-runc.kKkpRM.mount: Deactivated successfully.
